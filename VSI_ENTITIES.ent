@@ -1,0 +1,1892 @@
+<!ENTITY VSI_DOCS "The full VSI OpenVMS documentation set can be found on the VMS Software Documentation
+webpage at  <link xlink:href=&#34;https://docs.vmssoftware.com&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34;>https://docs.vmssoftware.com</link>">
+
+ 
+<!-- Platforms -->
+
+<!ENTITY X86_64 "x86-64">
+<!ENTITY VMSX86_64 "OpenVMS x86-64">
+<!ENTITY VMSALPHA "OpenVMS Alpha">
+<!ENTITY VMSA "VSI OpenVMS Alpha">
+<!ENTITY VMSITAN "OpenVMS I64">
+<!ENTITY VMSI "VSI OpenVMS I64">
+<!ENTITY VMSVAX "OpenVMS VAX">
+<!ENTITY VMSV "OpenVMS VAX">
+<!ENTITY VAX "VAX">
+
+<!ENTITY ITANIUMTM "I64">
+<!ENTITY ITANIUMREG "Itanium&reg;">
+<!ENTITY ITANIUMONLY "Itanium">
+<!ENTITY IITANIUM "Intel&reg; Itanium&reg;">
+<!ENTITY ITG "Integrity">
+
+
+<!-- Availability Manager -->
+
+<!ENTITY AVAIL_MANAGER_UG "<citetitle>Availability Manager User's Guide</citetitle>">
+
+<!-- Base OS -->
+
+<!ENTITY VMS_64BIT_PRIV_CODE "<citetitle>VSI OpenVMS Alpha Guide to Upgrading Privileged-Code Applications</citetitle>">
+<!ENTITY VMS_ALPHA_CALL "<citetitle>VSI OpenVMS Calling Standard</citetitle>">
+<!ENTITY VMS_VAXCLUSTER "<citetitle>VSI OpenVMS Cluster Systems Manual</citetitle>">
+<!ENTITY VMS_CLUSTER_CONFIG "<citetitle>Guidelines for OpenVMS Cluster Configurations</citetitle>">
+<!ENTITY VMS_TOOLS_UTIL_REF "<citetitle>VSI OpenVMS Command Definition, Librarian, and Message Utilities Manual</citetitle>">
+<!ENTITY VMS_DCLDICT_REF "<citetitle>VSI OpenVMS DCL Dictionary</citetitle>">
+<!ENTITY VMS_DCLDICT_REF1 "<citetitle>VSI OpenVMS DCL Dictionary: A-M</citetitle>">
+<!ENTITY VMS_DCLDICT_REF2 "<citetitle>VSI OpenVMS DCL Dictionary: N-Z</citetitle>">
+<!ENTITY VMS_IO_REF_MAN "<citetitle>VSI OpenVMS I/O User's Reference Manual</citetitle>">
+<!ENTITY VMS_LINKER_REF "<citetitle>VSI OpenVMS Linker Utility Manual</citetitle>">
+<!ENTITY VMS_LICENSE "<citetitle>VSI OpenVMS License Management Utility Guide</citetitle>">
+<!ENTITY VMS_ALPHA_GD_PORT_MACRO "<citetitle>VSI OpenVMS MACRO Compiler Porting and User's Guide</citetitle>">
+<!ENTITY VMS_PORT_ALPHA_I64 "<citetitle>Porting Applications from VSI OpenVMS Alpha to VSI OpenVMS Industry Standard 64 for Integrity Servers</citetitle>">
+<!ENTITY VMS_ALPHA_PROG_CONCEPTS "<citetitle>VSI OpenVMS Programming Concepts Manual</citetitle>">
+<!ENTITY VMS_ALPHA_PROG_CONCEPTS_VOL1 "<citetitle>VSI OpenVMS Programming Concepts Manual, Volume I</citetitle>">
+<!ENTITY VMS_ALPHA_PROG_CONCEPTS_VOLII "<citetitle>VSI OpenVMS Programming Concepts Manual, Volume II</citetitle>">
+<!ENTITY VMS_SECURITY_GENERIC "<citetitle>VSI OpenVMS Guide to System Security</citetitle>">
+<!ENTITY VMS_INST_UPG_MAN "<citetitle>VSI OpenVMS Upgrade and Installation Manual</citetitle>">
+<!ENTITY ALPHA_UP_INST "<citetitle>OpenVMS Alpha Upgrade and Installation Manual</citetitle>"> <!-- RK: Used in ABS Guide to Operations -->
+<!ENTITY VMS_AUTHORIZE_REF "<citetitle>VMS Authorize Utility Manual</citetitle>">
+<!ENTITY VMS_DCL_CONCEPTS "<citetitle>VSI OpenVMS DCL Concepts Manual</citetitle>">
+<!ENTITY VMS_VLINKER "OpenVMS Linker">
+<!ENTITY OPENVMS "OpenVMS">
+<!ENTITY VSIVMS "VSI OpenVMS">
+<!ENTITY VMS_MESSAGE_REF "OpenVMS Message Utility Manual">
+<!ENTITY VMS_TEXTFORM_H "Guide to VMS Text Processing">
+<!ENTITY VMS_X86_INST_GD "<citetitle>VSI OpenVMS x86-64 V9.2 Installation Guide</citetitle>"> <!--RK: Tat's work added per Clogher's request-->
+
+
+<!-- RMS -->
+<!ENTITY HFSGD "<citetitle>VSI OpenVMS Guide to Extended File Specifications</citetitle>">
+<!ENTITY VMS_FILETUNING_H "<citetitle>VSI OpenVMS Guide to OpenVMS File Applications</citetitle>">
+<!ENTITY VMS_PERFMAN_H "<citetitle>Guide to OpenVMS Performance Management</citetitle>">
+<!ENTITY RMS_JOURNAL "<citetitle>RMS Journaling for OpenVMS Manual</citetitle>">
+<!ENTITY VMS_RMSROUT_R "<citetitle>VSI OpenVMS Record Management Services Reference Manual</citetitle>">
+<!ENTITY RMS_PROD "<emphasis>VSI OpenVMS Record Management Services</emphasis>">
+<!ENTITY VMS_RMS_UTIL_REF "<citetitle>VSI OpenVMS Record Management Utilities Reference Manual</citetitle>">
+
+<!--RTLs-->
+<!ENTITY VMS_OTSROUT_R "<citetitle>VSI OpenVMS RTL General Purpose (OTS$) Manual</citetitle>">
+<!ENTITY VMS_LIBROUT_R "<citetitle>VSI OpenVMS RTL Library (LIB$) Manual</citetitle>">
+<!ENTITY VMS_STRROUT_R "<citetitle>VSI OpenVMS RTL String Manipulation (STR$) Manual</citetitle>">
+<!ENTITY VMS_SMGROUT_R "<citetitle>VSI OpenVMS RTL Screen Management (SMG$) Manual</citetitle>">
+<!ENTITY VMS_RTLPP_R "<citetitle>OpenVMS RTL Parallel Processing (PPL$) Manual</citetitle>"> <!--opanova: not converted by VSI-->
+
+<!-- System Management-->
+<!ENTITY VMS_SYSMAN_MAN "<citetitle>VSI OpenVMS System Manager's Manual</citetitle>">
+<!ENTITY VMS_SYSMAN_MAN1 "<citetitle>VSI OpenVMS System Manager's Manual, Volume 1: Essentials</citetitle>">
+<!ENTITY VMS_SYSMAN_MAN2 "<citetitle>VSI OpenVMS System Manager's Manual, Volume 2: Tuning, Monitoring, and Complex Systems</citetitle>">
+<!ENTITY VMS_SYSMAN_UTIL_REF "<citetitle>VSI OpenVMS System Management Utilities Reference Manual</citetitle>">
+<!ENTITY VMS_SYSMAN_UTIL_REF1 "<citetitle>VSI OpenVMS System Management Utilities Reference Manual, Volume 1: A-L</citetitle>">
+<!ENTITY VMS_SYSMAN_UTIL_REF2 "<citetitle>VSI OpenVMS System Management Utilities Reference Manual, Volume 2: M-Z</citetitle>">
+
+<!ENTITY VMS_SECURITY_GD "<citetitle>VSI OpenVMS Guide to System Security</citetitle>">
+<!ENTITY VMS_SYSROUT_R "<citetitle>VSI OpenVMS System Services Reference Manual</citetitle>">
+<!ENTITY VMS_SYSROUT_R1 "<citetitle>VSI OpenVMS System Services Reference Manual: A-GETUAI</citetitle>">
+<!ENTITY VMS_SYSROUT_R2 "<citetitle>VSI OpenVMS System Services Reference Manual: GETUTC-Z</citetitle>">
+<!ENTITY VMS_USER_MAN "<citetitle>VSI OpenVMS User's Manual</citetitle>">
+<!ENTITY VMS_UTILROUT_R "<citetitle>VSI OpenVMS Utility Routines Manual</citetitle>">
+<!ENTITY VMS_MACRO_REF "<citetitle>VAX MACRO and Instruction Set Reference Manual</citetitle>">
+<!ENTITY VAX_MACRO_PORT "<citetitle>Porting VAX MACRO Code from OpenVMS VAX to OpenVMS Alpha</citetitle>"> <!-- Mentioned in the Debugger Manual -->
+<!ENTITY VMS_VOL_SHAD "<citetitle>VSI OpenVMS Volume Shadowing Guide</citetitle>">
+<!ENTITY VMS_PERF_MGMT "<citetitle>OpenVMS Performance Management Manual</citetitle>"> <!-- opanova: not converted by VSI -->
+<!ENTITY CMS_GD_VMS "<citetitle>Guide to Code Management System for VMS Systems</citetitle>">
+
+<!-- Debuggers -->
+
+<!ENTITY VMS_DEBUGGER_REF "<citetitle>VSI OpenVMS Debugger Manual</citetitle>">
+<!ENTITY VMS_DELTA_REF "<citetitle>VSI OpenVMS Delta/XDelta Debugger Manual</citetitle>">
+<!ENTITY VMS_SYS_ANALYS_TLS_MAN "<citetitle>VSI OpenVMS System Analysis Tools Manual</citetitle>">
+<!ENTITY LADEBUG "Ladebug Debugger">
+<!ENTITY LADEBUG_DEBUGGER_MAN "Ladebug Debugger Manual">
+
+<!-- TCP/IP Services -->
+
+<!ENTITY TCPIP_SHORT "VSI TCP/IP">
+<!ENTITY TCPIP_MEDIUM "VSI TCP/IP Services">
+<!ENTITY TCPIP_FULL "VSI TCP/IP Services for OpenVMS">
+<!ENTITY TCPIP_MGMT "<citetitle>VSI TCP/IP Services for OpenVMS Management</citetitle>">
+<!ENTITY TCPIP_COMMAND_REF "<citetitle>VSI TCP/IP Services for OpenVMS Management Command Reference</citetitle>">
+<!ENTITY VMS_TCP_IP "<citetitle>VSI TCP/IP Networking on OpenVMS Systems</citetitle>">
+<!ENTITY TCPIP_INSTALL_CONFIG "<citetitle>VSI TCP/IP Services for OpenVMS Installation and Configuration</citetitle>">
+<!ENTITY TCPIP_CONCEPTS "<citetitle>VSI TCP/IP Services for OpenVMS Concepts and Planning</citetitle>">
+<!ENTITY TCPIP_REL_NOTES "<citetitle>VSI TCP/IP Services for OpenVMS Release Notes</citetitle>">
+<!ENTITY TCPIP_USER "<citetitle>VSI TCP/IP Services for OpenVMS User's Guide</citetitle>">
+<!ENTITY TCPIP_TUNING "<citetitle>VSI TCP/IP Services for OpenVMS Tuning and Troubleshooting</citetitle>">
+<!ENTITY TCPIP_IPV6 "<citetitle>VSI TCP/IP Services for OpenVMS Guide to IPv6</citetitle>">
+<!ENTITY TCPIP_SOCKET_PROG "<citetitle>VSI TCP/IP Services for OpenVMS Sockets API and System Services Programming</citetitle>">
+<!ENTITY TCPIP_ONC_RPC "<citetitle>VSI TCP/IP Services for OpenVMS ONC RPC Programming</citetitle>">
+<!ENTITY TCPIP_SNMP "<citetitle>VSI TCP/IP Services for OpenVMS SNMP Programming and Reference</citetitle>">
+<!ENTITY TCPIP_COMMAND_QUICK_REF "<citetitle>VSI TCP/IP Services for OpenVMS Management Command Quick Reference Card</citetitle>">
+<!ENTITY TCPIP_UNIX_REF_CARD "<citetitle>VSI TCP/IP Services for OpenVMS UNIX Command Equivalents Reference Card</citetitle>">
+
+<!-- Miscellaneous -->
+
+<!ENTITY VMS_ALPHA_ROUTINES_INTRO "<citetitle>OpenVMS Programming Interfaces: Calling a System Routine</citetitle>"> <!-- opanova: used in VSI Calling Std -->
+<!ENTITY MACRO64_VMS_ALPHA_RM "<citetitle>MACRO-64 Assembler for OpenVMS AXP Systems Reference Manual</citetitle>">  <!-- opanova: used in VSI Debugger -->
+<!ENTITY VMS_SDA_REF_GENERIC "<citetitle>VMS System Dump Analyzer Utility Manual</citetitle>">                       <!-- opanova: used in VSI Delta/XDelta Debugger -->
+<!ENTITY VMS_RTLROUT_R "<citetitle>VMS Run-Time Library Routines Volume</citetitle>">                                <!-- opanova: used in VSI C User's -->
+<!ENTITY VMS_MESSAGES_REF "<citetitle>OpenVMS System Messages and Recovery Procedures Reference Manual</citetitle>"> <!-- opanova: used in VSI C User's -->
+<!ENTITY VMS_SORT_MERGE_REF "<citetitle>VMS Sort/Merge Utility Manual</citetitle>">                                  <!-- opanova: used in VSI C User's -->
+<!ENTITY DECTHREAD_GD "<citetitle>Guide to POSIX Threads Library</citetitle>">
+<!ENTITY VMS_ALPHA_GALAXY_GD "<citetitle>VSI OpenVMS Alpha Partitioning and Galaxy Guide</citetitle>">		<!--EF: used in Guidelines for OpenVMS Cluster Configurations; AM: used in DECram User's Manual -->
+<!ENTITY VMS_ALPHA_SDA_REF "<citetitle>OpenVMS Alpha System Dump Analyzer Utility Manual</citetitle>">		<!--EF: used in VSI OpenVMS Cluster Systems -->
+<!ENTITY VMS_ALPHA_SYSMAN_COMP "<citetitle>A Comparison of System Management on OpenVMS AXP and OpenVMS VAX</citetitle>">		<!--EF: used in VSI OpenVMS Cluster Systems -->
+<!ENTITY VMS_DECAMDS_UG "<citetitle>DECamds User's Guide</citetitle>">		<!--EF: used in VSI OpenVMS Cluster Systems -->
+<!ENTITY VMS_64BIT_GD "<citetitle>OpenVMS Alpha Guide to 64-Bit Addressing and VLM Features</citetitle>">	<!-- EF: used in Alpha Guide to Upgrading Privileged Code Applications -->
+<!ENTITY VMS_V82_FEATURES "<citetitle>HP OpenVMS Version 8.2 New Features and Documentation Overview</citetitle>">	<!-- EF: used in VSI OpenVMS Command Definition, Librarian, and Message Utilities -->
+<!ENTITY VMS_V82_REL_NOTES "<citetitle>HP OpenVMS Version 8.2 Release Notes</citetitle>">	<!-- EF: used in DCL dict V II, OM: Used in Porting Alpha -->
+<!ENTITY VMS_MESSAGES_COMP_GD "<citetitle>OpenVMS System Messages: Companion Guide for Help Message Users</citetitle>"> <!-- EF: used in DCL dict; amushenkov: DCPS INST GUIDE -->
+<!ENTITY VMS_EXCHANGE_REF "<citetitle>OpenVMS Exchange Utility Manual</citetitle>"> <!-- EF: used in DCL dict -->
+<!ENTITY VMS_BAD_REF "<citetitle>OpenVMS Bad Block Locator Utility Manual</citetitle>">	<!-- EF: used in DCL dict -->
+<!ENTITY EXT_VERS_REF_MAN "<citetitle>Extensible Versatile Editor Reference Manual</citetitle>"> <!--opanova: used in User's manual-->
+<!ENTITY VMS_EDT_R "<citetitle>OpenVMS EDT Reference Manual</citetitle>">	<!-- EF: used in DCL dict -->
+<!ENTITY VMS_SUMSLP_REF "<citetitle>OpenVMS SUMSLP Utility Manual</citetitle>">	<!-- EF: used in DCL dict -->
+<!ENTITY VMS_MESSAGES_GENERIC "<citetitle>OpenVMS system messages documentation</citetitle>">	<!-- EF: used in DCL dict -->
+<!ENTITY VMS_FILEREC_INT "<citetitle>VMS File System Internals</citetitle>">	<!-- EF: used in DCL dict -->
+<!ENTITY VMS_FALLBACK "<citetitle>OpenVMS Terminal Fallback Utility Manual</citetitle>">	<!-- EF: used in DCL dict, V II -->
+<!ENTITY VMS_NCS "<citetitle>OpenVMS National Character Set Utility Manual</citetitle>">	<!-- EF: used in DCL dict, V II -->
+<!ENTITY VMS_DSR_R "<citetitle>OpenVMS DIGITAL Standard Runoff Reference Manual</citetitle>">	<!-- EF: used in DCL dict, V II -->
+<!ENTITY VMS_FEATURES_V731 "<citetitle>OpenVMS Alpha Version 7.3-1 New Features and Documentation Overview</citetitle>">	<!-- EF: used in DCL dict, V II -->
+<!ENTITY VMS_APPLICATIONS_H "<citetitle>Guide to Creating OpenVMS Modular Procedures</citetitle>">     <!-- OM: used in Programming Concepts V1 -->
+<!ENTITY VMS_UPGRADE "<citetitle>Installation and Upgrade Manual</citetitle>">			<!-- EF: Used in System Management Vol I -->
+<!ENTITY PATHWORKS "<citetitle>Advanced Server for OpenVMS 7.2</citetitle>">			<!-- EF: Used in System Management Vol I -->
+<!ENTITY DEC_TPU_REF_MAN "<citetitle>DEC Text Processing Utility Reference Manual</citetitle>">			<!-- EF: Used in System Management Utilities Manual Vol I -->
+<!ENTITY DEC_TPU_MAN "<citetitle>DEC Text Processing Utility Manual</citetitle>"> <!-- RK: Used in the Decforms FMS Conversion guide -->
+<!ENTITY VMS_SPIA_DG "<citetitle>VSI POLYCENTER Software Installation Utility Developer's Guide</citetitle>">			<!-- EF: Used in System Management Utilities Manual Vol II -->
+<!ENTITY SPIA "POLYCENTER Software Installation Utility">		<!-- used in x.25 Installation guide -->
+<!ENTITY VMS_ADSERV "<citetitle>Advanced Server for OpenVMS Concepts and Planning Guide</citetitle>">
+<!ENTITY VMS_MIGRATION "<citetitle>VSI OpenVMS and UNIX Interoperability and Migration Guide</citetitle>">
+<!ENTITY OPENVMS_KERBEROS "<citetitle>VSI Open Source Security for OpenVMS, Volume 3: Kerberos</citetitle>">
+<!ENTITY OPENVMS_SSL "<citetitle>VSI Open Source Security for OpenVMS</citetitle>">
+<!ENTITY H1_CONFIG_NON_XDMCP "<citetitle>PATHWORKS 32 eXcursion User’s Guide</citetitle>">
+<!ENTITY UNIX_NETPROG "<citetitle>VSI UNIX Network Programmer's Guide</citetitle>">
+<!ENTITY OPENVMS_INST_SUPMAN "<citetitle>VSI OpenVMS Alpha Version 7.3-2 Upgrade and Installation Manual</citetitle>">
+<!ENTITY DPML_BOOK "<citetitle>Compaq Portable Mathematics Library</citetitle>"> <!-- opanova: used in RTL General Purpose (OTS$) Manual, RTL Library (LIB$) Manual; this manual can be found on the HPE's website -->
+<!ENTITY VMS_MTHROUT_R "<citetitle>OpenVMS VAX RTL Mathematics (MTH$) Manual</citetitle>"> <!-- opanova: used in RTL Library (LIB$) Manual -->
+<!ENTITY VMS_DTKROUT_R "<citetitle>OpenVMS RTL DECtalk (DTK$) Manual</citetitle>"> <!-- opanova: used in RTL Library (LIB$) Manual -->
+<!ENTITY MEDIA_GD "<citetitle>OpenVMS Software Product Library CD-ROM User's Guide</citetitle>"> <!-- opanova: used in DECnet-Plus Install and Config -->
+<!ENTITY VMS_LATCP "<citetitle>VMS LAT Control Program (LATCP) Manual</citetitle>"> <!-- EF: used in ACMS Managing Apps -->
+<!ENTITY PROGSUPP "<citetitle>PostScript Printers Programmer's Supplement</citetitle>"> <!-- EF: DCPS System Manager's Manual -->
+<!ENTITY PSMANAGE "<citetitle>DEC PrintServer Supporting Host Software for OpenVMS Management Guide</citetitle>"> <!-- EF: DCPS System Manager's Manual -->
+<!ENTITY DSMAN "<citetitle>Guide to Terminal Server Manager</citetitle>"> <!-- EF: DCPS System Manager's Manual -->
+<!ENTITY VT100_USER "<citetitle>VT100 User Guide</citetitle>"> <!-- EF: used in FMS_Util_Ref -->
+<!ENTITY VT200_USER "<citetitle>VT200 User Guide</citetitle>"> <!-- EF: used in FMS_Util_Ref -->
+<!ENTITY VT200_PROG_REF "<citetitle>VT200 Programmers Reference Guide</citetitle>"> <!-- EF: used in FMS_Util_Ref -->
+<!ENTITY CMD_LANG_GD "<citetitle>VSI OpenVMS Command Language User's Guide</citetitle>"> <!-- EF: used in FMS_Util_Ref -->
+<!ENTITY FMS_SOFTW_REF "<citetitle>VSI OpenVMS FMS Software Reference Manual</citetitle>"> <!-- EF: used in FMS_Util_Ref -->
+<!ENTITY RUN_TIME_LIB_COMM "<citetitle>VMS Common Run-Time Library Manual</citetitle>"> <!-- EF: used in VSI FMS Form Driver Reference Manual -->
+<!ENTITY CDE_MIG "<citetitle>Getting Started With the New Desktop</citetitle>"> <!-- raulkarimov: copied from the Commented Out section -->
+<!ENTITY CDE_VMS "New Desktop"> <!-- raulkarimov: transferred from 6300PRO.ent -->
+<!ENTITY VMS_X_WINDOW_SYS "X Window System"> <!-- raulkarimov: copied from the Commented Out section -->
+<!ENTITY BRAND "VSI"> <!-- raulkarimov: transferred from 6300PRO.ent -->
+<!ENTITY ORACLE_DT_GD "<citetitle>Oracle Rdb Guide to Distributed Transactions</citetitle>">    <!-- amushenkov: used in RTR App design GD -->
+<!ENTITY ORACLE8_SA_DG "<citetitle>Oracle8 Server Application Developer's Guide</citetitle>">   <!-- amushenkov: used in RTR App design GD -->
+<!ENTITY ORACLE8I_SA_DG "<citetitle>Oracle8i Server Application Developer's Guide</citetitle>"> <!-- amushenkov: used in RTR App design GD -->
+<!ENTITY ORACLE8_A_DG "<citetitle>Oracle8 Application Developer's Guide</citetitle>">           <!-- amushenkov: used in RTR App design GD -->
+<!ENTITY ORACLE8I_A_DG "<citetitle>Oracle8i Application Developer's Guide</citetitle>">         <!-- amushenkov: used in RTR App design GD -->
+<!ENTITY ORACLE_CODASYL_PR_M "<citetitle>Oracle CODASYL DBMS Programming Reference Manual</citetitle>">                <!-- amushenkov: used in VSI COBOL for OpenVMS DBMS Database Programming Manual -->
+<!ENTITY ORACLE_CODASYL_AR_M "<citetitle>Oracle CODASYL DBMS Database Administration Reference Manual</citetitle>">    <!-- amushenkov: used in VSI COBOL for OpenVMS DBMS Database Programming Manual -->
+<!ENTITY ORACLE_CODASYL_PR_G "<citetitle>Oracle CODASYL DBMS Programming Guide</citetitle>">                           <!-- amushenkov: used in VSI COBOL for OpenVMS DBMS Database Programming Manual -->
+<!ENTITY ORACLE_CDD_REP "<citetitle>Using Oracle CDD/Repository on OpenVMS Systems</citetitle>">                       <!-- amushenkov: used in VSI COBOL for OpenVMS DBMS Database Programming Manual -->
+<!ENTITY ORACLE_CDDREP_ARCH_MAN "<citetitle>Oracle CDD/Repository Architecture Manual</citetitle>">                    <!-- amushenkov: used in VSI COBOL for OpenVMS User Manual -->
+<!ENTITY ORACLE_INTRO "<citetitle>Introduction to Oracle CODASYL DBMS</citetitle>">                                    <!-- amushenkov: used in VSI COBOL for OpenVMS DBMS Database Programming Manual -->
+<!ENTITY ORACLE_CDDREP_IM_I "<citetitle>Oracle CDD/Repository Information Model Volume I</citetitle>">                 <!-- amushenkov: used in VSI COBOL for OpenVMS User Manual -->
+<!ENTITY ORACLE_CDDREP_IM_II "<citetitle>Oracle CDD/Repository Information Model Volume II</citetitle>">               <!-- amushenkov: used in VSI COBOL for OpenVMS User Manual -->
+<!ENTITY RTR_JRTR_GS "<citetitle>JRTR Getting Started</citetitle>">								<!-- amushenkov: used in RTR Getting Started and Installation Guide -->
+<!ENTITY ETH_NIC_RM "<citetitle>Ethernet Network Interface Card (NIC) Reference Manual</citetitle>">       <!-- amushenkov: used in VSI DCPS System Manager's Guide-->
+<!ENTITY LN17PS_UG "<citetitle>LN17ps User Guide</citetitle>">                                             <!-- amushenkov: used in VSI DCPS System Manager's Guide-->
+<!ENTITY HP5SIMX "<citetitle>HP5SiMX User's Guide</citetitle>">                                            <!-- amushenkov: used in VSI DCPS System Manager's Guide-->
+<!ENTITY RP600S_IG "<citetitle>RapidPrint 600 Print Server Installation Guide</citetitle>">                <!-- amushenkov: used in VSI DCPS System Manager's Guide-->
+<!ENTITY LN15_UM "<citetitle>LN15 User Manual</citetitle>">                                                <!-- amushenkov: used in VSI DCPS System Manager's Guide-->
+<!ENTITY PATHWORKS_MAC "<citetitle>PATHWORKS for OpenVMS (Macintosh)</citetitle>">						   <!-- amushenkov: used in VSI DCPS Release Notes-->
+<!ENTITY ANSI3PROGREF "<citetitle>Digital ANSI-Compliant Printing Protocol Level 3 Programming Reference Manual</citetitle>">     <!-- amushenkov: used in VSI DCPS User's Guide-->
+<!ENTITY PSREFMAN "<citetitle>PostScript Language Reference Manual</citetitle>">												  <!-- amushenkov: used in VSI DCPS User's Guide-->
+<!ENTITY LN03R_SP_OG "<citetitle>LN03R ScriptPrinter Operator's Guide</citetitle>">											      <!-- amushenkov: used in VSI DCPS User's Guide-->
+<!ENTITY HP_LJ_UG "<citetitle>HP LaserJet User Guide</citetitle>">																  <!-- amushenkov: used in VSI DCPS User's Guide-->
+<!ENTITY PSI_PUBLIC_NETWORK "<citetitle>Public Network Information Guide</citetitle>">											  <!-- amushenkov: used in DECnet Network Management Utilities-->
+<!ENTITY PSI_PROBLEM_GD "<citetitle>VAX P.S.I. Problem Solving Guide</citetitle>">												  <!-- amushenkov: used in DECnet Network Management Utilities-->
+<!ENTITY VMS_DEVDRIVER_H "<citetitle>VSI VMS Device Support Manual</citetitle>">											      <!-- amushenkov: used in DECnet Networking Manual-->
+<!ENTITY DEC_FMS_IG "<citetitle>DEC FMS Installation Guide</citetitle>">														  <!-- amushenkov: used in FMS for OpenVMS Systems Installation Guide-->
+<!ENTITY VAX11_RT_LR_M "<citetitle>VAX-11 Run-Time Library Reference Manual</citetitle>">										  <!-- amushenkov: used in FMS for OpenVMS Language Interface Manual-->
+<!ENTITY VAX11_MLP_GD "<citetitle>VAX-11 Guide to Creating Modular Library Procedures</citetitle>">							      <!-- amushenkov: used in FMS for OpenVMS Language Interface Manual-->
+<!ENTITY VAX11_FMS_UR_M "<citetitle>VAX-11 FMS Utilities Reference Manual</citetitle>">							                  <!-- amushenkov: used in FMS for OpenVMS Language Interface Manual-->
+<!ENTITY VAX11_FMS_FDR_M "<citetitle>VAX-11 FMS Form Driver Reference Manual</citetitle>">							              <!-- amushenkov: used in FMS for OpenVMS Language Interface Manual-->
+<!ENTITY CDDREP_REF_MAN "CDD/Repository CDO Reference Manual">                  <!-- amushenkov: used in VSI BASIC for OpenVMS User Manual-->
+<!ENTITY DTM_GD_VMS "Guide to Test Manager for VMS Systems">                    <!-- amushenkov: used in VSI BASIC for OpenVMS User Manual--> 
+<!ENTITY SCA_GD_VMS "Guide to Source Code Analyzer for VMS Systems">            <!-- amushenkov: used in VSI BASIC for OpenVMS User Manual--> 
+<!ENTITY VMS_APPLICATIONS_H "Guide to Creating OpenVMS Modular Procedures">                              <!-- amushenkov: used in VSI COBOL for OpenVMS User Manual -->
+<!ENTITY ALP_GD "Assembly Language Programmer's Guide">                              <!-- amushenkov: used in VSI COBOL for OpenVMS User Manual -->
+<!ENTITY VMS_SPIA_UG "<citetitle>POLYCENTER Software Installation Utility User's Guide</citetitle>">	        <!-- amushenkov: used in VSI Fortran for OpenVMS Integrity Servers Installation Guide -->
+<!ENTITY VMS_FILETUNING_H_OT "<citetitle>VSI OpenVMS Guide to OpenVMS File Applications</citetitle>">           <!-- amushenkov: used in VSI Fortran for OpenVMS Language Reference Manual --> 
+<!ENTITY CDDREP_UG_V "<citetitle>Using CDD/Repository on VMS Systems</citetitle>">                              <!-- amushenkov: used in VSI Fortran for OpenVMS Language Reference Manual -->
+<!ENTITY LSE_SCA_PROD "Language-Sensitive Editor/Source Code Analyzer">              <!-- amushenkov: used in VSI Pascal for OpenVMS User Manual -->
+<!ENTITY CDD_ADMIN_UG "<citetitle>CDD/Administrator User's Guide</citetitle>">       <!-- amushenkov: used in VSI Pascal for OpenVMS User Manual -->
+
+
+<!-- Functional Specifications -->
+
+<!ENTITY DCMP_FS "<citetitle>Data Communications Message Protocol Functional Specification</citetitle>">
+<!ENTITY NTW_SP_FS "<citetitle>Network Services Protocol Functional Specification</citetitle>">
+<!ENTITY MOP_FS "<citetitle>Maintenance Operation Protocol Functional Specification</citetitle>">
+<!ENTITY DAP_FS "<citetitle>Data Access Protocol Functional Specification</citetitle>">
+<!ENTITY ROUT_L_FS "<citetitle>Routing Layer Functional Specification</citetitle>">
+<!ENTITY DNA_SC_FS "<citetitle>DNA Session Control Functional Specification</citetitle>">
+<!ENTITY DNA_P_IVNTWM_FS "<citetitle>DNA Phase IV Network Management Functional Specification</citetitle>">
+<!ENTITY ETH_NPA_S "<citetitle>Ethernet Node Product Architecture Specification</citetitle>">
+<!ENTITY ETH_DL_FS "<citetitle>Ethernet Data Link Functional Specification</citetitle>">
+
+
+
+<!-- Architecture-specific Manuals -->
+
+<!-- VAX -->
+<!ENTITY VMS_INTERNALS_A "<citetitle>VAX/VMS Internals and Data Structures</citetitle>">
+<!ENTITY VMS_ALPHA_MIG_APP "<citetitle>Migrating an Application from OpenVMS VAX to OpenVMS Alpha Manual</citetitle>">
+<!ENTITY VMS_ARCHREFMAN_A "<citetitle>VAX Architecture Reference Manual</citetitle>">
+<!ENTITY VMS_DEV_SUP "<citetitle>OpenVMS VAX Device Support Manual</citetitle>">
+<!ENTITY VMS_DEV_SUP_REF "<citetitle>OpenVMS VAX Device Support Reference Manual</citetitle>">
+<!ENTITY VMS_VAX_DUMP_AN "<citetitle>OpenVMS VAX System Dump Analyzer Manual</citetitle>">
+<!ENTITY VMS_VAX_SDA_REF "<citetitle>OpenVMS VAX System Dump Analyzer Utility Manual</citetitle>">
+<!ENTITY VMS_COMPAT_VAX_AXP "<citetitle>VSI OpenVMS Compatibility Between VAX and Alpha</citetitle>">
+<!ENTITY VAX_LMUR_M "<citetitle>VAX License Management Utility Reference Manual</citetitle>">
+<!ENTITY VAX_MAP_NM_GD "<citetitle>VAX DEC/MAP Network Manager's Guide</citetitle>">
+
+<!-- Alpha -->
+<!ENTITY VMS_AXP_DEV_SUP_DEV_GD "<citetitle>Writing OpenVMS Alpha Device Drivers in C</citetitle>">
+<!ENTITY AXP_INTERNALS "<citetitle>OpenVMS AXP Internals and Data Structures</citetitle>">
+<!ENTITY ALPHA_ARCH_REF "<citetitle>Alpha Architecture Reference Manual</citetitle>">
+<!ENTITY ALPHA_ARCH_HAND "<citetitle>Alpha Architecture Handbook</citetitle>">
+<!ENTITY VMS_ALPHA_MIG_ENV "<citetitle>Migrating an Environment from OpenVMS VAX to OpenVMS Alpha</citetitle>">
+<!ENTITY VMS_ALPHA_PORT_APPS "<citetitle>Migrating to an OpenVMS AXP System: Recompiling and Relinking Applications</citetitle>">
+<!ENTITY VMS_ALPHA_PROG_ENVIRON "<citetitle>OpenVMS Programming Environment Manual</citetitle>">
+<!ENTITY ALPHA_TOOLS "<citetitle>VSI OpenVMS Alpha System Analysis Tools Manual</citetitle>">
+<!ENTITY ALPHA_PART_GALAXY_GD "<citetitle>VSI OpenVMS Alpha Partitioning and Galaxy Guide</citetitle>">
+<!ENTITY VMS_AXP_VAX_STEP2_DRIVER "<citetitle>Creating an OpenVMS Alpha Device Driver from an OpenVMS VAX Device Driver</citetitle>">
+
+<!-- Itanium -->
+<!ENTITY SYS_V_ABI "<citetitle>System V Application Binary Interface, AMD64 Architecture Processor Supplement</citetitle>">
+<!ENTITY SYS_V_ABI_VER_1 "<citetitle>System V Application Binary Interface, AMD64 Architecture Processor Supplement, Version 1.0</citetitle>">
+<!ENTITY ITANIUM_SW_AND_RT_GD "<citetitle>Itanium&reg; Software Conventions and Runtime Architecture Guide</citetitle>">
+<!ENTITY IA64_ARCH_MAN "<citetitle>Intel IA-64 Architecture Software Developer's Manual</citetitle>">
+<!ENTITY INTEL_DEV_MAN "<citetitle>Intel 64 and IA-32 Architectures Software Developer Manuals</citetitle>">
+
+<!-- Linux -->
+<!ENTITY LINUX_STD_VER_5 "<citetitle>Linux Standard Base, Version 5.0</citetitle>">
+
+
+<!-- Layered Products -->
+
+<!-- ABS -->
+<!ENTITY MDMS_REF "<citetitle>VSI MDMS Reference Guide</citetitle>">
+<!ENTITY ABS_COM_REF "<citetitle>VSI OpenVMS ABS/HSM Command Reference Guide</citetitle>">
+<!ENTITY ABS_INST_GUIDE "<citetitle>VSI Archive Backup System for OpenVMS Installation Guide</citetitle>">
+<!ENTITY ABS_MDMS_REF "<citetitle>VSI OpenVMS Archive Backup System for OpenVMS MDMS Reference Guide</citetitle>">
+<!ENTITY ABS_OP_GUIDE "<citetitle>VSI Archive Backup System for OpenVMS Guide to Operations</citetitle>">
+
+<!-- ACMS -->
+<!ENTITY CPQACMS "ACMS for OpenVMS">
+<!ENTITY CPQACMSIV "VSI ACMS Version 4.3 for OpenVMS">
+<!ENTITY CPQACMSV "VSI ACMS for OpenVMS, Version 5.0">
+<!ENTITY ACMS_OVMS_MANAGE_APPS "<citetitle>VSI ACMS for OpenVMS Managing Applications</citetitle>">
+<!ENTITY ACMS_OVMS_WRIT_APPS "<citetitle>VSI ACMS for OpenVMS Writing Applications</citetitle>">
+<!ENTITY ACMS_OVMS_WRIT_SERV_PROC "<citetitle>VSI ACMS for OpenVMS Writing Server Procedures</citetitle>">
+<!ENTITY ACMS_OVMS_ADU_REF "<citetitle>VSI ACMS for OpenVMS ADU Reference Manual</citetitle>">
+<!ENTITY ACMS_OVMS_CONC_DES "<citetitle>VSI ACMS for OpenVMS Concepts and Design Guidelines</citetitle>">
+<!ENTITY ACMS_OVMS_SYS_INTER_PROG "<citetitle>VSI ACMS for OpenVMS Systems Interface Programming</citetitle>">
+<!ENTITY ACMS_OVMS_IG "<citetitle>VSI ACMS Version 5.0 for OpenVMS Installation Guide</citetitle>">
+<!ENTITY ACMS_OVMS_GET_STARTED "<citetitle>VSI ACMS for OpenVMS Getting Started</citetitle>">
+<!ENTITY ACMS_OVMS_QUICK_REF "<citetitle>VSI ACMS for OpenVMS Quick Reference</citetitle>">
+<!ENTITY ACMS_OVMS_REM_MAN_UG "<citetitle>ACMS for OpenVMS Remote Systems Management Guide</citetitle>">
+<!ENTITY VAX_COB_RM "<citetitle>VAX COBOL Reference Manual</citetitle>">
+<!ENTITY ACMS_OVMS_REL_NTS "<citetitle>VSI ACMS Version 5.0 for OpenVMS Release Notes</citetitle>">
+<!ENTITY ACMS_WRITING_APPS "<citetitle>VSI ACMS for OpenVMS Writing Applications</citetitle>">
+<!ENTITY ACMS_REMOTE_SYSMAN "<citetitle>VSI ACMS for OpenVMS Remote Systems Management Guide</citetitle>">
+
+<!-- DECnet IV -->
+<!ENTITY DECNET_VMS_NETWORK "<citetitle>VSI OpenVMS DECnet Networking Manual</citetitle>">
+<!ENTITY VMS_DECNET_INTRO "<citetitle>VSI OpenVMS DECnet Guide to Networking</citetitle>">
+<!ENTITY VMS_NCP_REF "<citetitle>VSI OpenVMS DECnet Network Management Utilities</citetitle>">
+<!ENTITY DNOSI_OVMS_CTF "<citetitle>DECnet/OSI for VMS CTF Use</citetitle>">                                <!-- opanova: not converted by VSI -->
+<!ENTITY DNOSI_VMS_NET_MGMT "<citetitle>DECnet/OSI Network Management</citetitle>">                         <!-- opanova: not converted by VSI -->
+<!ENTITY DNOSI_VMS_NCL_REF "<citetitle>DECnet/OSI Network Control Language Reference</citetitle>">          <!-- opanova: not converted by VSI -->
+<!ENTITY DECDNS_MNG_GD_OSI "<citetitle>DECnet/OSI DECdns Management</citetitle>">                           <!-- opanova: not converted by VSI -->
+<!ENTITY DNOSI_VMS_INS_CONF "<citetitle>DECnet/OSI for OpenVMS Installation and Configuration</citetitle>"> <!-- opanova: not converted by VSI -->
+<!ENTITY DNOSI_VMS_CTF "<citetitle>DECnet/OSI for OpenVMS Common Trace Facility Use</citetitle>">
+<!ENTITY DECNET_NA_GD "<citetitle>DECnet Network Architecture General Description</citetitle>">
+<!ENTITY DECNET_SP_D "<citetitle>DECnet for OpenVMS Software Product Description</citetitle>">
+<!ENTITY VMS_DECNET_TEST_REF "VMS DECnet Test Sender/DECnet Test Receiver Utility Manual">
+
+<!--DECnet-Plus-->
+<!ENTITY DNPLUS_SHORT "DECnet-Plus">
+<!ENTITY DNPLUS_LONG "VSI DECnet-Plus for OpenVMS">
+<!ENTITY DECNET_PLUS_INSTAL_USER_GD "<citetitle>VSI DECnet-Plus for OpenVMS Introduction and User's Guide</citetitle>">
+<!ENTITY DECNET_PLUS_INSTALL_CONFIG_GD "<citetitle>VSI DECnet-Plus for OpenVMS Installation and Configuration</citetitle>">
+<!ENTITY DECNET_LANG_REF_GD "<citetitle>VSI DECnet-Plus for OpenVMS Network Control Language Reference Guide</citetitle>"> 
+<!ENTITY DECNET_PLUS_PLAN_GD "<citetitle>VSI DECnet-Plus Planning Guide</citetitle>">
+<!ENTITY DECNET_PROB_SOLV_GD "<citetitle>VSI DECnet-Plus for OpenVMS Problem Solving Guide</citetitle>">
+<!ENTITY DECNET_NETW_MANG_GD "<citetitle>VSI DECnet-Plus for OpenVMS Network Management Guide</citetitle>">
+<!ENTITY DNPLUS_OVMS_PROG "<citetitle>VSI DECnet-Plus for OpenVMS Programming</citetitle>">
+<!ENTITY DNPLUS_INSTALL_ADV "<citetitle>DECnet-Plus for OpenVMS Applications Installation and Advanced Configuration Guide</citetitle>">
+<!ENTITY DNPLUS_OVMS_IN_QREF "<citetitle>DECnet-Plus for OpenVMS Installation and Quick Reference</citetitle>">
+<!ENTITY DNPLUS_OVMS_INSTALL_BASIC "<citetitle>DECnet-Plus for OpenVMS Installation and Basic Configuration Manual</citetitle>">
+<!ENTITY DNPLUS_OVMS_MGMT_QREF "<citetitle>DECnet-Plus for OpenVMS Network Management and Quick Reference Card</citetitle>">
+<!ENTITY DNPLUS_OVMS_REL_NOTES "<citetitle>DECnet-Plus for OpenVMS Release Notes</citetitle>">
+<!ENTITY DNPLUS_UNIX_PROG "<citetitle>VSI DECnet-Plus for VSI UNIX Programming Guide</citetitle>">
+
+<!ENTITY DNPLUS_OSAK_PROG "<citetitle>VSI DECnet-Plus OSAK Programming</citetitle>">
+<!ENTITY DNPLUS_OSAK_SPI_REF "<citetitle>VSI DECnet-Plus OSAK SPI Programming Reference Manual</citetitle>">
+<!ENTITY DNPLUS_OSAK_PROG_REF "<citetitle>VSI DECnet-Plus OSAK Programming Reference Manual</citetitle>">
+
+<!ENTITY DNPLUS_FTAM_PROG "<citetitle>VSI DECnet-Plus FTAM Programming</citetitle>">
+<!ENTITY DNPLUS_FTAM_VT_MGMT "<citetitle>VSI DECnet-Plus FTAM and Virtual Terminal Use and Management</citetitle>">
+<!ENTITY DNPLUS_NCL_REF "<citetitle>VSI DECnet–Plus for OpenVMS—Network Control Language Reference</citetitle>">
+<!ENTITY DNPLUS_SPD "<citetitle>DECnet-Plus for OpenVMS Software Product Description (SPD)</citetitle>">
+<!ENTITY HP_DNPLUS_RN "<citetitle>HP DECnet-Plus for OpenVMS Release Notes</citetitle>"> <!-- RK: Used in X25 MGMT -->
+
+<!-- DECdts -->
+<!ENTITY DECNET_PLUS_DTS_PROG_GD "<citetitle>VSI DECnet-Plus DECdts Programming</citetitle>"> <!-- opanova: used in DECnet-Plus Install and Config" -->
+<!ENTITY DNPLUS_DTS_MGMT "<citetitle>VSI DECnet-Plus for OpenVMS DECdts Management</citetitle>">
+
+<!-- DECdns -->
+<!ENTITY DNS "DECdns">
+<!ENTITY DECDNS_MANAGEMENT_GD "<citetitle>VSI DECnet-Plus for OpenVMS DECdns Management Guide</citetitle>">
+
+<!-- DECdfs -->
+<!ENTITY DFS "DECdfs">
+<!ENTITY DFS_REL "<citetitle>VSI DECdfs for OpenVMS Release Notes</citetitle>">
+<!ENTITY DFS_MAN_GUIDE "<citetitle>VSI DECdfs for OpenVMS Management Guide</citetitle>">
+<!ENTITY DFS_INST_GUIDE "<citetitle>VSI DECdfs for OpenVMS Installation Guide</citetitle>">
+
+<!-- DECforms -->
+<!ENTITY DECF_IG "<citetitle>VSI DECforms Installation Guide for OpenVMS Systems</citetitle>">
+<!ENTITY DECF_FMS_CVT_GD "<citetitle>VSI DECforms Guide to Converting FMS Applications</citetitle>">
+<!ENTITY DECF_PROG_GD "<citetitle>VSI DECforms Programmer's Reference Manual</citetitle>">
+<!ENTITY DECF_REF_MAN "<citetitle>VSI DECforms IFDL Reference Manual</citetitle>">
+<!ENTITY DECF_DEV_APP_GD "<citetitle>VSI DECforms Guide to Developing an Application</citetitle>">
+<!ENTITY LSESCA "<citetitle>Guide to the DEC Language-Sensitive Editor</citetitle>">
+<!ENTITY DECF_IG "<citetitle>VSI DECforms Installation Guide for OpenVMS Systems</citetitle>">
+<!ENTITY DECF_STYLE_GD "<citetitle>VSI DECforms Style Guide for Character-Cell Devices</citetitle>">
+<!ENTITY DECF_FMS_CVT_GD "<citetitle>VSI DECforms Guide to Converting FMS Applications</citetitle>">
+<!ENTITY DECF_DEV_FORM_GD "<citetitle>VVSI DECforms Guide to Commands and Utilities</citetitle>">
+<!ENTITY DECF_DEM_APP_GD "<citetitle>VSI DECforms Guide to Demonstration Forms and Applications</citetitle>"> <!-- RK: Used in the DECF FMS Conv guide -->
+
+<!-- DECset -->
+<!ENTITY CMS_UG "<citetitle>VSI DECset for OpenVMS Guide to the Code Management System</citetitle>">
+<!ENTITY CMS_REF "<citetitle>VSI DECset for OpenVMS Code Management System Reference Manual</citetitle>">
+<!ENTITY DECSET_INSTALL "<citetitle>VSI DECset for OpenVMS Installation Guide</citetitle>">
+<!ENTITY CMS_RELNOTES "<citetitle>Code Management System for OpenVMS Release Notes</citetitle>">
+<!ENTITY CMSCLIENT_UG "<citetitle>CMS Client User's Guide</citetitle>">
+<!ENTITY DECSET_UG "<citetitle>Using VSI DECset for OpenVMS Systems</citetitle>">
+<!ENTITY CMS_FULL "<citetitle>Code Management System for OpenVMS</citetitle>">
+<!ENTITY VAX_DEC_CMS_CALL_ROUT_FILE "<citetitle>CMS Callable Routines</citetitle>">
+<!ENTITY CMSCLIENT_UG "<citetitle>CMS Client User's Guide</citetitle>">
+<!ENTITY CMS_ROUT_REF "<citetitle>VSI DECset for OpenVMS Code Management System Callable Routines Reference Manual</citetitle>">
+<!ENTITY CMS_FULL_VER "<citetitle>Code Management System Version 4.4 for OpenVMS</citetitle>">
+<!ENTITY DECSETCLIENT_FULL "<citetitle>DECset Clients for CMS and MMS</citetitle>">
+<!ENTITY DECSET_FULL_VER "<citetitle>DECset Version 12.8 for OpenVMS</citetitle>">
+<!ENTITY DECSET_COOKBK "<citetitle>DECset for OpenVMS Cookbook for an Integrated Product Development Environment</citetitle>">
+<!ENTITY DECSET_SPD_VAX "<citetitle>VSI DECset for OpenVMS VAX Software Product Description</citetitle>">
+<!ENTITY DECSET_SPD_ALPHA "<citetitle>VSI DECset for OpenVMS Alpha Software Product Description</citetitle>">
+<!ENTITY DECSET_SPD_I64 "<citetitle>VSI DECset for OpenVMS I64 Software Product Description</citetitle>">
+<!ENTITY DECSET_PROG "<citetitle>Guide to Detailed Program Design for OpenVMS Systems</citetitle>">
+<!ENTITY DECSET_UG "<citetitle>Using DECset for OpenVMS Systems</citetitle>">
+<!ENTITY SCA "<citetitle>VSI DECset for OpenVMS Guide to Source Code Analyzer</citetitle>">
+<!ENTITY LSE_SCA_REF "<citetitle>VSI DECset for OpenVMS Language-Sensitive Editor/Source Code Analyzer Reference Manual</citetitle>">
+<!ENTITY VMS_LIBRARIAN_REF "<citetitle>VSI OpenVMS Librarian Utility Manual</citetitle>">
+<!ENTITY DEC_TPU_GD "<citetitle>Guide to the DEC Text Processing Utility</citetitle>">
+<!ENTITY LSE_GUIDE "<citetitle>VSI DECset for OpenVMS Guide to Language-Sensitive Editor</citetitle>">
+<!ENTITY LSE_CLI "<citetitle>VSI DECset for OpenVMS Language-Sensitive Editor Command-Line Interface and Callable Routines Reference Manual</citetitle>">
+<!ENTITY SCA_CLI "<citetitle>VSI DECset for OpenVMS Source Code Analyzer Command-Line Interface and Callable Routines Reference Manual</citetitle>">
+<!ENTITY LSE_GD_VMS "<citetitle>Guide to Language-Sensitive Editor for OpenVMS Systems</citetitle>">
+<!ENTITY SCA_UG "<citetitle>VSI DECset for OpenVMS Guide to VSI Source Code Analyzer</citetitle>">
+<!ENTITY PCA_UG "<citetitle>Guide to Performance and Coverage Analyzer for OpenVMS Systems</citetitle>">
+<!ENTITY VAX_TPU_LRM "<citetitle>VAX Text Processing Utility Manual</citetitle>">
+<!ENTITY DTM_REFERENCE "<citetitle>VSI DECset for OpenVMS Test Manager Reference Manual</citetitle>">
+<!ENTITY COMMAND_PROCEDURES "<citetitle>Guide to Using DCL and Command Procedures on OpenVMS</citetitle>">
+<!ENTITY DTM "VSI Digital Test Manager">
+<!ENTITY PCA "Performance and Coverage Analyzer">
+<!ENTITY CMS "Code Management System">
+<!ENTITY IO_REF "<citetitle>OpenVMS I/O User's Reference Manual: Part 1</citetitle>">
+<!ENTITY PCA_REFERENCE "<citetitle>VSI DECset for OpenVMS Performance and Coverage Analyzer Reference Manual</citetitle>">
+<!ENTITY PCA_CLI_GUIDE "<citetitle>VSI DECset Performance and Coverage Analyzer for OpenVMS Command-Line Interface Guide</citetitle>">
+<!ENTITY MMS_RN "<citetitle>Module Management System for OpenVMS Release Notes</citetitle>">
+
+
+<!-- DCPS -->
+<!ENTITY DCPS_SHORT "DCPS">
+<!ENTITY DCPS_VERSION "V2.7-A">
+<!ENTITY DCPS_VER_LONG "Version 2.7-A">
+<!ENTITY DCPS_INSTALL "<citetitle>DCPS Software Installation Guide</citetitle>">
+<!ENTITY DCPS_USER "<citetitle>DCPS User’s Guide</citetitle>">
+<!ENTITY DCPS_SYSMAN "<citetitle>DCPS System Manager's Guide</citetitle>">
+<!ENTITY DCPS_SPD "<citetitle>Software Product Description (SPD 44.15.xx)</citetitle>">
+<!ENTITY DCPS_DP_S "<citetitle>DECprint Supervisor</citetitle>">
+<!ENTITY DCPS_RN "<citetitle>DCPS Release Notes</citetitle>">
+
+<!--DECwindows-->
+<!ENTITY DECWINDOWS_MOTIF "VSI DECwindows Motif for OpenVMS"> <!-- opanova: this product name is used in VSI Debugger -->
+<!ENTITY VMS_DECW_APP_PROG_GD "<citetitle>VMS DECwindows Guide to Application Programming</citetitle>"> <!-- RK: for the DECTPU Guide -->
+<!ENTITY VMS_DECW_MOTIF_INSTL_GD_V11 "<citetitle>VSI DECwindows for OpenVMS Installation Guide</citetitle>">
+<!ENTITY VMS_DECW_MOTIF_UG "<citetitle>Using VSI DECwindows Motif for OpenVMS</citetitle>">
+<!ENTITY DECw_MOTIF_NF "<citetitle>VSI DECwindows Motif for OpenVMS New Features</citetitle>"> <!-- raulkarimov: transferred from ZKO_BOOKNAMES.ent -->
+<!ENTITY DECw_MOTIF_RN "<citetitle>VSI DECwindows Motif for OpenVMS Release Notes</citetitle>"> <!-- raulkarimov: transferred from ZKO_BOOKNAMES.ent -->
+<!ENTITY VMS_DECW_MOTIF_SYSMAN "<citetitle>VSI DECwindows Motif for OpenVMS Management Guide</citetitle>"> <!-- raulkarimov: transferred from ZKO_BOOKNAMES.ent -->
+<!ENTITY SERVER_FULL "DECwindows X11 Display Server"> <!-- raulkarimov: transferred from ZKO_BOOKNAMES.ent -->
+<!ENTITY VMS_DECW_15_SPD "<citetitle>VSI DECwindows Motif for OpenVMS Software Product Description</citetitle>"> <!-- raulkarimov: transferred from 6300PRO.ent -->
+<!ENTITY VMS_DECW_GD_XLIB_R4_C "VMS DECwindows Guide to Xlib(Release 4) Programming: MIT C Binding"> <!-- raulkarimov: copied from the Commented Out section -->
+<!ENTITY TRAD_VMS "Traditional DECwindows Desktop"> <!-- raulkarimov: transferred from 6300PRO.ent -->
+<!ENTITY VMS_DECW_15_IG "<citetitle>VSI DECwindows Motif for OpenVMS Installation Guide</citetitle>"> <!-- raulkarimov: transferred from 6300PRO.ent -->
+<!ENTITY VMS_DECW_MOTIF_GD_APP_PROG "<citetitle>DECwindows Motif Guide to Application Programming</citetitle>">
+<!ENTITY VMS_DECW_UIL "<citetitle>VMS DECwindows User Interface Language Reference Manual</citetitle>">
+<!ENTITY VMS_DECW_QK_REF_GD "<citetitle>DECwindows Motif for OpenVMS Guide to Non-C Bindings</citetitle>">
+
+<!--Enhanced Password-->
+<!ENTITY VSI_ENH_PWD_INSTALL_QS "<citetitle>VSI OpenVMS Enhanced Password Installation and Quick Start Guide</citetitle>">
+<!ENTITY VSI_ENH_PWD_COVLET_RN "<citetitle>VSI OpenVMS Enhanced Password Cover Letter and Release Notes</citetitle>">
+<!ENTITY VSI_ENH_PWD_SPD "<citetitle>VSI OpenVMS Enhanced Password Software Product Description</citetitle>">
+
+<!ENTITY VSI_ENH_PWD "VSI OpenVMS Enhanced Password Management">
+<!ENTITY VSI_ENH_PWD_SHORT_NAME "VSI Password Management">
+
+<!--FMS-->
+<!ENTITY FMS_LANG_INTER "<citetitle>VSI FMS Language Interface Manual</citetitle>">
+<!ENTITY FMS_UTIL_REF "<citetitle>VSI FMS Utilities Reference Manual</citetitle>">
+<!ENTITY FMS_INTRO "<citetitle>Introduction to VSI FMS</citetitle>">
+<!ENTITY FMS_FORM_DRIVER "<citetitle>VSI FMS Form Driver Reference Manual</citetitle>">
+<!ENTITY FMS_MINI_REF "<citetitle>VSI FMS for OpenVMS Systems Mini-Reference</citetitle>">
+<!ENTITY FMS_INST_GD "<citetitle>VSI OpenVMS FMS Installation Guide</citetitle>">
+
+
+<!--RTR-->
+<!ENTITY RTR_PR_NAME "Reliable Transaction Router">
+<!ENTITY RTR_GS "<citetitle>VSI Reliable Transaction Router Getting Started</citetitle>">
+<!ENTITY RTR_SMM "<citetitle>VSI Reliable Transaction Router System Manager’s Manual</citetitle>">
+<!ENTITY RTR_DS "<citetitle>VSI Reliable Transaction Router Application Design Guide</citetitle>">
+<!ENTITY RTR_RN "<citetitle>VSI Reliable Transaction Router Release Notes</citetitle>">
+<!ENTITY RTR_PD "<citetitle>VSI Reliable Transaction Router Software Product Description</citetitle>">
+<!ENTITY RTR_IG "<citetitle>VSI Reliable Transaction Router Installation Guide</citetitle>">
+<!ENTITY RTR_FC "<citetitle>VSI Reliable Transaction Router C++ Foundation Classes</citetitle>">
+<!ENTITY RTR_RM "<citetitle>VSI Reliable Transaction Router C Application Programmer’s Reference Manual</citetitle>">
+<!ENTITY RTR_MIG "<citetitle>Reliable Transaction Router Migration Guide</citetitle>">
+
+<!--X25--> 
+<!ENTITY X25_SHORT "X.25 for OpenVMS">
+<!ENTITY X25_SHORT_VSI "VSI X.25">
+<!ENTITY X25_BRANDED "VSI X.25 for OpenVMS">
+<!ENTITY X25_MAN_GD "<citetitle>VSI X.25 for OpenVMS Management Guide</citetitle>">
+<!ENTITY X25_CONFIG "<citetitle>VSI X.25 for OpenVMS Configuration</citetitle>">
+<!ENTITY X25_PROB_SOLV "<citetitle>VSI X.25 for OpenVMS Problem Solving</citetitle>">
+<!ENTITY X25_SECURITY "<citetitle>VSI X.25 for OpenVMS Security Guide</citetitle>">
+<!ENTITY X25_RN "<citetitle>VSI X.25 for OpenVMS Release Notes</citetitle>">
+<!ENTITY X25_UTIL "<citetitle>X.25 for OpenVMS Utilities</citetitle>">                  <!-- opanova: this manual was never converted and rebranbded -->
+<!ENTITY X25_ACCTG "<citetitle>X.25 for OpenVMS Accounting</citetitle>">                <!-- opanova: this manual was never converted and rebranbded -->
+<!ENTITY X25_PROG "<citetitle>X.25 for OpenVMS Programming</citetitle>">                <!-- opanova: this manual was never converted and rebranbded -->
+<!ENTITY X25_PROG_REF "<citetitle>X.25 for OpenVMS Programming Reference</citetitle>">  <!-- opanova: this manual was never converted and rebranbded -->
+
+<!--Compilers-->
+
+<!--Ada-->
+<!ENTITY DEC_ADA_LRM "DEC Ada Language Reference Manual"> <!--opanova: used in VSI Debugger -->
+
+<!-- VSI C -->
+<!ENTITY C "VSI C">
+<!ENTITY CVMS "VSI C for OpenVMS systems">
+<!ENTITY C_RTL "C RTL">
+<!ENTITY C_RTL_FULL "VSI C Run-Time Library (C RTL)">
+<!ENTITY C_LRM "<citetitle>VSI C Language Reference Manual</citetitle>">
+<!ENTITY C_UG "<citetitle>VSI C User's Guide for OpenVMS Systems</citetitle>">
+<!ENTITY C_RTL_REF "<citetitle>VSI C Run-Time Library Reference Manual for OpenVMS Systems</citetitle>">
+
+<!-- VSI C++ -->
+<!ENTITY DEC_CPP_LIB "VSI C++ Class Library">
+<!ENTITY CPP_IG "<citetitle>VSI C++ for OpenVMS Installation Guide</citetitle>">
+<!ENTITY CPP_PROD "VSI C++">
+<!ENTITY DEC_CPP_LIBRARY "<citetitle>VSI C++ Class Library Reference Manual</citetitle>">
+<!ENTITY DEC_CPP_INSTALL_AXP "<citetitle>VSI C++ Installation Guide for OpenVMS Alpha</citetitle>">
+<!ENTITY DEC_CPP_INSTALL_I64 "<citetitle>VSI C++ Installation Guide for OpenVMS I64</citetitle>">
+
+<!--VSI BASIC-->
+<!ENTITY BASIC "VSI BASIC">
+<!ENTITY BASIC_VB "VSI BASIC for OpenVMS">
+<!ENTITY BASIC_LANG "BASIC">
+<!ENTITY BASIC_LRM "<citetitle>VSI BASIC for OpenVMS Reference Manual</citetitle>">
+<!ENTITY BASIC_UM "<citetitle>VSI BASIC for OpenVMS User Manual</citetitle>">
+<!ENTITY BASIC_BA "Alpha BASIC">
+<!ENTITY BASIC_CDDPLUS "CDD/Repository">
+<!ENTITY BASIC_I64 "I64 BASIC">
+<!ENTITY BASIC_ALPHA "Alpha BASIC">
+<!ENTITY BASIC_VAX "VAX BASIC">
+<!ENTITY VAX_BASIC_PROG_GRAPH "<citetitle>Programming with VAX BASIC Graphics</citetitle>">
+
+
+<!--VSI COBOL-->
+<!ENTITY COBOL_PROD_NAME "VSI COBOL for OpenVMS">
+<!ENTITY DEC_COB_UM "<citetitle>VSI COBOL for OpenVMS User Manual</citetitle>">
+<!ENTITY DEC_COB_DML "<citetitle>VSI COBOL for OpenVMS DBMS Database Programming Manual</citetitle>">
+<!ENTITY DEC_COB_RM "<citetitle>VSI COBOL for OpenVMS Reference Guide</citetitle>">
+<!ENTITY COBOL_IG "<citetitle>VSI COBOL for OpenVMS Installation Guide</citetitle>">
+<!ENTITY COBOL_H "<citetitle>VSI COBOL for OpenVMS Help</citetitle>">
+<!ENTITY VAX_COB_IG "<citetitle>COBOL for OpenVMS VAX Systems Installation Guide</citetitle>">
+<!ENTITY COBOL_OR_CDD_REP "Oracle CDD/Repository">
+<!ENTITY COBOL_OSF_UNIX "UNIX">
+<!ENTITY COBOL_DBMS "Oracle DBMS">
+<!ENTITY COBOL_DBMS_FULL "Oracle CODASYL DBMS">
+<!ENTITY COBOL_COMMAND_NAME "COBOL">
+<!ENTITY COBOL_RDB "Oracle Rdb">
+<!ENTITY COBOL_ALPHA "Alpha">
+<!ENTITY COBOL_VCOB "VSI COBOL">
+<!ENTITY COBOL_ACMSXP "ACMSxp">
+
+
+<!--VSI Fortran-->
+<!ENTITY FORTRAN_IG_I64 "<citetitle>VSI Fortran Installation Guide for OpenVMS I64 Systems</citetitle>">
+<!ENTITY FORTRAN_IG_ALPHA "<citetitle>VSI Fortran Installation Guide for OpenVMS Alpha Systems</citetitle>">
+<!ENTITY FORTRAN "VSI Fortran">
+<!ENTITY FORTRAN_PROD "VSI Fortran for OpenVMS">
+<!ENTITY FORTRAN_EXDEVICE "DKA400">
+<!ENTITY FORTRAN_L_RM "<citetitle>VSI Fortran for OpenVMS Language Reference Manual</citetitle>">
+<!ENTITY FORTRAN_USR_M "<citetitle>VSI Fortran for OpenVMS User Manual</citetitle>">
+<!ENTITY FORTRAN_COMFORT77 "Compaq Fortran 77">
+<!ENTITY FORTRAN_RTL "RTL">
+<!ENTITY FORTRAN_PERF "<citetitle>VSI Fortran Performance Guide</citetitle>"> <!-- RK: used in Guide to PCA -->
+
+<!--VSI Pascal-->
+<!ENTITY PASCAL "VSI Pascal">
+<!ENTITY PASCAL_FULL "VSI Pascal for OpenVMS">
+<!ENTITY PASCAL_UM "<citetitle>VSI Pascal for OpenVMS User Manual</citetitle>">
+<!ENTITY PASCAL_RM "<citetitle>VSI Pascal for OpenVMS Language Reference Manual</citetitle>">
+<!ENTITY DEC_PAS_OPENVMS_IG "<citetitle>VSI Pascal for OpenVMS Installation Guide</citetitle>">
+<!ENTITY PASCAL_VAX "VAX Pascal">
+<!ENTITY VAX_PASCAL_RM "<citetitle>VAX Pascal Reference Manual</citetitle>">
+
+
+<!--VSI OMNI-->
+<!ENTITY OMNIVIEW_GD "<citetitle>VSI OMNI API Guide to Using OmniView</citetitle>">
+<!ENTITY OMNIVIEW_GD1 "<citetitle>VSI OMNI Guide to Using OmniView</citetitle>">
+<!ENTITY OMNI_DEF_FAC_USER "<citetitle>VSI OMNI API Omni Definition Facility User Guide</citetitle>">
+<!ENTITY OMNI_DIR_SER_USER "<citetitle>VSI OMNI API Omni Directory Services User Guide</citetitle>">
+<!ENTITY OMNI_API_INST "<citetitle>VSI OMNI API for OpenVMS Installation Guide</citetitle>">
+<!ENTITY OMNI_API_SPD "<citetitle>VSI OMNI API Software Product Description (SPD)</citetitle>">
+<!ENTITY OMNI_USE_DIR_SER "<citetitle>VSI OMNI API Guide to Using Omni Directory Services</citetitle>">
+<!ENTITY OMNI_APG "<citetitle>VSI OMNI Application Programmer's Guide</citetitle>">
+<!ENTITY OMNI_NMG "<citetitle>VSI OMNI Network Manager's Guide</citetitle>">
+<!ENTITY DEC_OMNIVIEW_GD "<citetitle>DEComni/VMS Guide to Using OmniView</citetitle>">
+<!ENTITY DEC_OMNI_APG "<citetitle>DEComni/VMS Application Programmer's Guide</citetitle>">
+<!ENTITY DEC_OMNI_INST "<citetitle>DEComni/VMS Software Installation Guide</citetitle>">
+<!ENTITY DEC_OMNI_NMG "<citetitle>DEComni/VMS Network Manager's Guide</citetitle>">
+
+
+<!--VSI OSAP-->
+<!ENTITY OSAP_IG "<citetitle>VSI OSAP/H1 Installation Guide</citetitle>">
+<!ENTITY OSAP_SPD "<citetitle>VSI OSAP/H1 Version 4.1 for OpenVMS Software Product Description (SPD)</citetitle>">
+<!ENTITY OSAP_NMPG "<citetitle>VSI OSAP/H1 Network Manager’s and Programmer’s Guide</citetitle>">
+<!ENTITY OSAP_CL "<citetitle>VSI OSAP/H1 Version 4.1 for OpenVMS Cover Letter </citetitle>">
+
+<!-- COMMENTED OUT FOR NOW -->
+<!--PASCAL--><!-- opanova:
+<!ENTITY PDP_PASCAL_IG "<citetitle>PDP-11 PASCAL Installation Guide</citetitle>">
+<!ENTITY PDP_PASCAL_RM "<citetitle>PDP-11 PASCAL Reference Manual</citetitle>">
+<!ENTITY PDP_PASCAL_UM "<citetitle>PDP-11 PASCAL User Manual</citetitle>">
+<!ENTITY VAX_PASCAL_IG "<citetitle>VAX Pascal Installation Guide</citetitle>">
+<!ENTITY VAX_PASCAL_RM "<citetitle>VAX Pascal Reference Manual</citetitle>">
+<!ENTITY VAX_PASCAL_UM "<citetitle>VAX Pascal User Manual</citetitle>">
+<!ENTITY VAX_PASCAL_SUPP_VMS_VAX "<citetitle>VAX Pascal Reference Supplement for VMS Systems</citetitle>">
+<!ENTITY DEC_PAS_OPENVMS_UM "<citetitle>VSI Pascal User Manual for OpenVMS Systems</citetitle>">
+<!ENTITY DEC_PAS_OPENVMS_IG "<citetitle>VSI Pascal Installation Guide for OpenVMS Systems</citetitle>">
+<!ENTITY DEC_PAS_OPENVMS_REF "<citetitle>VSI Pascal Language Reference Manual</citetitle>">
+<!ENTITY DEC_PAS_OPENVMS_RBI "<citetitle>Read Before Installing or Using VSI Pascal for OpenVMS Systems Version 5.0</citetitle>">
+<!ENTITY DEC_PAS_OSF_AXP_UM "<citetitle>VSI Pascal User Manual for DEC OSF/1 AXP Systems</citetitle>">
+<!ENTITY DEC_PAS_OSF_AXP_IG "<citetitle>VSI Pascal Installation Guide for DEC OSF/1 AXP Systems</citetitle>">
+<!ENTITY DEC_PAS_OSF_AXP_RBI "<citetitle>Read Before Installing or Using VSI Pascal for DEC OSF/1 AXP Systems Version 5.0</citetitle>"> -->
+
+<!--COBOL--><!-- opanova: commented out for now
+<!ENTITY DEC_COB_DML "<citetitle>VSI COBOL DBMS Database Programming Manual</citetitle>">
+<!ENTITY VAX_COB_IG "<citetitle>VAX COBOL Installation Guide</citetitle>">
+<!ENTITY DEC_COB_RM "<citetitle>VSI COBOL Reference Guide</citetitle>">
+<!ENTITY DEC_COB_UM "<citetitle>VSI COBOL User Manual</citetitle>">
+
+<!ENTITY DEC_COB_IG_OSF "<citetitle>DEC COBOL Installation Guide for UNIX Systems</citetitle>">
+<!ENTITY DEC_COB_IG_VMS "<citetitle>DEC COBOL Installation Guide for OpenVMS Alpha Systems</citetitle>">
+<!ENTITY COB_CG "<citetitle>COBOL Compatibility Guide</citetitle>">
+<!ENTITY COB_81_RM "<citetitle>COBOL-81 Reference Manual</citetitle>">
+<!ENTITY COB_81_UM "<citetitle>COBOL-81 User Manual</citetitle>">
+<!ENTITY COB_81_IG "<citetitle>COBOL-81 Installation Guide</citetitle>">
+<!ENTITY COB_81_LS "<citetitle>COBOL-81 Language Summary</citetitle>">-->
+
+<!--C/C++--><!-- opanova: commented out for now
+<!ENTITY DEC_C_IG_VAX_VMS "<citetitle>VSI C Installation Guide for OpenVMS VAX Systems</citetitle>">
+<!ENTITY PDP_C_GT "<citetitle>Guide to PDP-11 C</citetitle>">
+<!ENTITY PDP_C_RTL_RM "<citetitle>PDP-11 C Run-Time Library Reference Manual</citetitle>">
+<!ENTITY PDP_C_IG "<citetitle>PDP-11 C Installation Guide</citetitle>">
+<!ENTITY VAX_C_GT "<citetitle>Guide to VAX C</citetitle>">
+<!ENTITY VAX_C_IG "<citetitle>VAX C Installation Guide</citetitle>">
+<!ENTITY VAX_C_RTL_RM "<citetitle>VAX C Run-Time Library Reference Manual</citetitle>">
+<!ENTITY DEC_C_MG_VMS "<citetitle>VSI C Migration Guide for OpenVMS Systems</citetitle>">
+<!ENTITY DEC_C_IG_RISC_ULTRIX "<citetitle>VSI C for ULTRIX on RISC Installation Guide and Release Notes</citetitle>">
+<!ENTITY DEC_C_UG_ULTRIX "<citetitle>VSI C User's Guide for ULTRIX Systems</citetitle>">
+<!ENTITY DEC_CPP_VMS "<citetitle>Using VSI C++ for OpenVMS Systems</citetitle>">
+<!ENTITY DEC_CPP_OSF "<citetitle>Using VSI C++ for DEC OSF/1 Systems</citetitle>">
+<!ENTITY DEC_CPP_INSTALL_VAX "<citetitle>VSI C++ Installation Guide for OpenVMS VAX Systems</citetitle>">
+<!ENTITY DEC_CPP_INSTALL_OSF "<citetitle>VSI C++ Installation Guide for DEC OSF/1 Systems</citetitle>">
+<!ENTITY DEC_CCPP_CRT_VAX "<citetitle>VSI C/C++ Run-Time Components for OpenVMS VAX Reference and Installation Guide</citetitle>">
+<!ENTITY CXXPL "<citetitle>Stroustrup, The C++ Programming Language, 2nd Edition</citetitle>">
+<!ENTITY DEC_CPP_ULTRIX "<citetitle>Using VSI C++ on ULTRIX Systems</citetitle>">
+<!ENTITY DEC_CPP_INSTALL_ULTRIX "<citetitle>VSI C++ Installation Guide and Release Notes for ULTRIX on RISC</citetitle>">
+<!ENTITY DEC_CPP_REFERENCE "<citetitle>VSI C++ Language Reference Manual</citetitle>">
+<!ENTITY VAX_C_ULT_GT "<citetitle>Guide to VAX C for ULTRIX-32</citetitle>">
+<!ENTITY VMS_ENCRYPT_REF "<citetitle>Encryption for OpenVMS Installation and Reference Manual</citetitle>">
+<!ENTITY VMS_NCL_REF "<citetitle>VMS Network Control Language Reference Manual</citetitle>">
+
+<!ENTITY RUN_TIME_LIB_REF "<citetitle>VMS Run-Time Library Reference Manual</citetitle>">
+<!ENTITY MOD_LIB_PROC "<citetitle>VMS Guide to Creating Modular Library Procedures</citetitle>"> -->
+
+<!--BASIC--><!-- opanova: commented out for now
+<!ENTITY VAX_BASIC_RM "<citetitle>VAX BASIC Reference Manual</citetitle>">
+<!ENTITY VAX_BASIC_UM "<citetitle>VAX BASIC User Manual</citetitle>">
+<!ENTITY VAX_BASIC_IG "<citetitle>VAX BASIC Installation Guide</citetitle>">
+<!ENTITY BASIC_CG "<citetitle>BASIC Compatibility Guide</citetitle>">-->
+
+<!-- opanova: commented out for now
+<!ENTITY DECF_RNOTES "<citetitle>VSI DECforms Release Notes">
+<!ENTITY DECF_FMS_CVT_GD "<citetitle>VSI DECforms Guide to Converting FMS Applications</citetitle>">
+<!ENTITY DECF_DEV_APP_GD "<citetitle>VSI DECforms Guide to Developing an Application</citetitle>">
+<!ENTITY DECF_REF_MAN "<citetitle>VSI DECforms IFDL Reference Manual</citetitle>">
+<!ENTITY DECF_IG "<citetitle>VSI DECforms Installation Guide for OpenVMS Systems</citetitle>">
+<!ENTITY DECF_PROG_GD "<citetitle>VSI DECforms Programmer's Reference Manual</citetitle>">
+<!ENTITY DECF_STYLE_GD "<citetitle>VSI DECforms Style Guide for Character-Cell Devices</citetitle>">
+
+<!ENTITY DECF_MASTER_GLOSS "<citetitle>DECforms Master Index and Glossary</citetitle>">
+<!ENTITY DECF_TDMS_CVT_GD "<citetitle>DECforms Guide to Converting VAX TDMS Applications</citetitle>">
+<!ENTITY DECF_UIG "<citetitle>DECforms Installation Guide for ULTRIX Systems with RISC Processors</citetitle>">
+<!ENTITY DECF_WORK_FORM_GD "<citetitle>DECforms Form Workbench Guide</citetitle>">
+<!ENTITY DECF_QUICK_REF "<citetitle>DECforms Quick Reference Card</citetitle>">-->
+
+<!--DECset--><!-- opanova: commented out for now
+<!ENTITY VAX_DEC_CMS_CALL_ROUT_MAN "<citetitle>VSI DECset for Open VMS Code Management System Callable Routines Reference Manual</citetitle>">
+<!ENTITY MMS_GD_VMS "<citetitle>VSI DECset for Open VMS Guide to Module Management System</citetitle>">
+
+
+<!ENTITY DECSET_IG_VMS_AXP "<citetitle>DECset Installation Guide for OpenVMS AXP Systems</citetitle>">
+<!ENTITY DBX_GD_ULT "<citetitle>Guide to DECset dbx for ULTRIX Systems</citetitle>">
+<!ENTITY DECSET_IG_ULT "<citetitle>DECset Installation Guide for ULTRIX Systems</citetitle>">
+<!ENTITY DECSET_USING_ULT "<citetitle>Using DECset for ULTRIX Systems</citetitle>">
+
+<!ENTITY ELN_DW_BOOK "VAXELN Guide to DECwindows">
+<!ENTITY VMS_CD_DOC_V51 "VMS DECwindows Online Documentation Compact Disc">
+<!ENTITY ALL_IN_1_MAIL_DECW_UG "ALL-IN-1 MAIL for VMS DECwindows User's Guide">
+<!ENTITY VMS_DECW_MOTIF_RLS_NTS_V11 "VMS DECwindows Version 1.1 Release Notes">
+<!ENTITY VMS_DECW_PROGKIT_SUPP "VMS DECwindows Programming Documentation Supplement">
+<!ENTITY VMS_DECW_TRANSPORT "VMS DECwindows Transport Manual">
+<!ENTITY VMS_DECW_SERVER "VMS DECwindows Server Manual">
+<!ENTITY VMS_DECW_CD_DOC_BOOK "VMS DECwindows Online Documentation Compact Disc">
+<!ENTITY VMS_DECW_APP_PROG_GD "VMS DECwindows Guide to Application Programming">
+<!ENTITY VMS_DECW_TOOLKIT_REF "VMS DECwindows Toolkit Routines Reference Manual">
+<!ENTITY VMS_DECW_XLIB_PROG "VMS DECwindows Xlib Programming Volume">
+<!ENTITY VMS_DECW_XLIB_PROG_C "VMS DECwindows Guide to Xlib Programming: MIT C Binding">
+<!ENTITY VMS_DECW_XLIB_PROG_VAX "VMS DECwindows Guide to Xlib Programming: VAX Binding">
+<!ENTITY VMS_DECW_XLIB_REF "VMS DECwindows Xlib Routines Reference Manual">
+<!ENTITY VMS_DECW_DEV_DRIVER "VMS DECwindows Device Driver Manual">
+<!ENTITY VMS_DECW_UG "VMS DECwindows User's Guide">
+<!ENTITY VMS_DECW_DESK_APP "VMS DECwindows Desktop Applications Guide">
+<!ENTITY VMS_DECW_126_IG "VSI DECwindows Motif for OpenVMS Installation Guide">
+<!ENTITY VMS_DECW_123_RLS_NOTES "DECwindows Motif Version 1.2-3 for OpenVMS Release Notes">
+<!ENTITY VMS_DECW_124_RLS_NOTES "DECwindows Motif Version 1.2-4 for OpenVMS Release Notes">
+<!ENTITY VMS_DECW125_RLS_NOTES "DECwindows Motif Version 1.2-5 for OpenVMS Release Notes">
+<!ENTITY VMS_DECW126_RLS_NOTES "DECwindows Motif for OpenVMS Release Notes">
+<!ENTITY VMS_DECW_123_IG "DECwindows Motif Version 1.2-3 for OpenVMS Installation Guide">
+<!ENTITY VMS_DECW_123_CD_GD "DECwindows Motif Version 1.2-3 for OpenVMS CD-ROM User's Guide">
+<!ENTITY VMS_DECW_124_IG "DECwindows Motif Version 1.2-4 for OpenVMS Installation Guide">
+<!ENTITY VMS_DECW_125_IG "DECwindows Motif Version 1.2-5 for OpenVMS Installation Guide">
+<!ENTITY VMS_DECW_124_CD_GD "Guide to the DECwindows Motif Version 1.2-4 for OpenVMS CD-ROM">
+<!ENTITY VMS_DECW_125_CD_GD "Guide to the DECwindows Motif Version 1.2-5 for OpenVMS CD-ROM">
+<!ENTITY VMS_DECW_126_CD_GD "Guide to the DECwindows Motif for OpenVMS CD-ROM">
+<!ENTITY VMS_ALPHA_MOTIF_RNTS_V11 "DECwindows Motif for OpenVMS AXP Version 1.1 Release Notes">
+<!ENTITY VMS_ALPHA_MOTIF_INST_V11 "DECwindows Motif for OpenVMS AXP Version 1.1 Installation Guide">
+<!ENTITY VMS_DECW_MOTIF_INSTL_GD_V12 "DECwindows Motif Version 1.2 for OpenVMS Installation Guide">
+<!ENTITY VMS_DECW_MOTIF_RLS_NTS_V12 "DECwindows Motif Version 1.2 for OpenVMS Release Notes">
+<!ENTITY VMS_DECW_MOTIF_QK_REF_CARD "DECwindows Motif for OpenVMS Quick Reference Card">
+<!ENTITY VMS_DECW_MOTIF_QK_REFCARD_OT "DECwindows Motif Quick Reference Card">
+
+<!ENTITY VMS_DECW_MOTIF_UG_OT "VMS DECwindows Motif User's Guide">
+<!ENTITY VMS_DECW_MOTIF_APPS_GD "DECwindows Motif for OpenVMS Applications Guide">
+<!ENTITY VMS_DECW_MOTIF_APPS_GD_OT "VMS DECwindows Motif Applications Guide">
+<!ENTITY VMS_DECW_MOTIF_EXT "DECwindows Extensions to Motif">
+<!ENTITY VMS_DECW_QK_REF_GD_OT "VMS DECwindows Guide to Non-C Bindings">
+<!ENTITY VMS_DECW_MOTIF_STYLE_GD "DECwindows Companion to the OSF/Motif Style Guide">
+<!ENTITY VMS_DECW_MOTIF_OVERVIEW "Overview of DECwindows Motiff or OpenVMS Documentation">
+<!ENTITY VMS_DECW_MOTIF_OVERVIEW_OT "Overview to VMS DECwindows Motif Programming Documentation">
+<!ENTITY VMS_DECW_MOTIF_GD_APP_PROG_OT "VMS DECwindows Motif Guide to Application Programming">
+<!ENTITY VMS_DECW_GD_XLIB_R4_VAX "VMS DECwindows Guide to Xlib(Release 4) Programming: VAX Binding">
+<!ENTITY VMS_DECW_TRANSPORT_MANUAL "VMS DECwindows Transport Manual">
+<!ENTITY VMS_DECW_MOTIF_INSTALL_GD "VMS DECwindows Motif Installation Guide">
+<!ENTITY VMS_DECW_MOTIF_V3_RLS_NTS "VMS DECwindows Motif Version 1.0 Release Notes">
+<!ENTITY VMS_DECW_DISPLAY_POST_PROG "VMS DECwindows Display PostScript System Programming Supplement">
+
+<!ENTITY VMS_DECW_V12_CD_UG "DECwindows Motif Version 1.2 for OpenVMS Compact Disc User Guide">-->
+
+<!-- opanova: commented out for now
+<!ENTITY VAX_ADA_PROG_DEV "Developing Ada Programs on OpenVMS Systems">
+<!ENTITY VAX_ADA_IG "DEC Ada Installation Guide for OpenVMS VAX Systems">
+<!ENTITY VMS_AXP_ADA_IG "DEC Ada Installation Guide for OpenVMS Alpha Systems">
+<!ENTITY VAX_ADA_RT_RM "DEC Ada Run-Time Reference Manual for OpenVMS Systems">
+<!ENTITY XD_ADA_PROG_DEV "Developing XD Ada Programs">
+<!ENTITY XD_ADA_10_RT_SM "XD Ada MC68000/MC68010 Run-Time Reference Manual">
+<!ENTITY XD_ADA_20_RT_SM "XD Ada MC68020 Run-Time Reference Manual">
+<!ENTITY XD_ADA_SUPP_ADA_LRM "XD Ada MC68000 Supplement to the Ada Language Reference Manual">
+<!ENTITY XD_ADA_10_AM "XD Ada MC68000/MC68010 Assembler Manual">
+<!ENTITY XD_ADA_20_AM "XD Ada MC68020 Assembler Manual">
+<!ENTITY XD_ADA_10_IG "XD Ada MC68000/MC68010 Installation Guide">
+<!ENTITY XD_ADA_20_IG "XD Ada MC68020 Installation Guide">
+<!ENTITY XD_ADA_TS "XD Ada Technical Summary">
+<!ENTITY XD_ADA_MIL_RT_SM "XD Ada MIL-STD-1750A Run-Time Reference Manual">
+<!ENTITY XD_ADA_MIL_SUPP_ADA_LRM "XD Ada MIL-STD-1750A Supplement to the Ada Language Reference Manual">
+<!ENTITY XD_ADA_MIL_IG "XD Ada MIL-STD-1750A Installation Guide">
+<!ENTITY XD_ADA_MIL_AM "XD Ada MIL-STD-1750A Assembler Manual">
+<!ENTITY VAX_APL_IG "VAX APL Installation Guide">
+<!ENTITY VAX_APL_RM "VAX APL Reference Manual">
+<!ENTITY VAX_APL_UG "VAX APL User's Guide">
+<!ENTITY VAX_APL_LS "VAX APL Language Summary">
+
+<!ENTITY VMS_DEV_SUP_OT "VMS Device Support Manual">
+<!ENTITY VMS_DEV_SUP_REF_OT "VMS Device Support Reference Manual">
+<!ENTITY VMS_DEV_SUP_VOL "VMS Device Support Volume">
+
+<!ENTITY VAX_BLISS_16_IG "VAX BLISS-16 Installation Guide">
+<!ENTITY VAX_BLISS_32_IG "VAX BLISS-32 Installation Guide">
+<!ENTITY VAX_BLISS_LRM "VAX BLISS Language Reference Manual">
+<!ENTITY VAX_BLISS_32_UM "VAX BLISS-32 User Manual">
+<!ENTITY PORT_XUI_APP "Porting XUI Applications to Motif">
+<!ENTITY DPML_OSF_AXP "Digital Portable Mathematics Library">
+<!ENTITY PDP_FORT_77_IG "PDP-11 FORTRAN-77 Installation Guide">
+<!ENTITY PDP_FORT_77_DOC_SUPP "PDP-11 FORTRAN-77 Documentation Supplement">
+<!ENTITY PDP_FORT_77_OTS_LRM "PDP-11 FORTRAN-77 Object Time System Reference Manual">
+<!ENTITY PDP_FORT_77_LRM "PDP-11 FORTRAN-77 Language Reference Manual">
+<!ENTITY PDP_FORT_77_UG "PDP-11 FORTRAN-77 User's Guide">
+<!ENTITY FORT_CG "FORTRAN Compatibility Guide">
+<!ENTITY VAX_FORT_ULT_IG "VAX FORTRAN for ULTRIX Systems Installation Guide">
+<!ENTITY VAX_FORT_ULT_UM "VAX FORTRAN for ULTRIX Systems User Manual">
+<!ENTITY VAX_FORT_ULT_LRM "VAX FORTRAN for ULTRIX Systems Language Reference Manual">
+<!ENTITY VAX_FORT_ULT_PG "VAX FORTRAN for ULTRIX Systems Performance Guide">
+<!ENTITY DEC_FORT_ULT_IG "DEC Fortran Installation Guide for ULTRIX RISC Systems">
+<!ENTITY DEC_FORT90_LRM "DEC Fortran 90 Language Reference Manual">
+<!ENTITY DEC_FORT90_OSF_UM "Digital Fortran 90 User Manual for Digital UNIX Systems">
+<!ENTITY DEC_FORT90_OSF_IG "Digital Fortran Installation Guide for Digital UNIX Systems">
+<!ENTITY DEC_FORT90_VMS_UM "DEC Fortran 90 User Manual for OpenVMS Alpha Systems">
+<!ENTITY DEC_FORT90_VMS_IG "Digital Fortran 90 Installation Guide for OpenVMS Alpha Systems">
+<!ENTITY DEC_FORT_LRM "DEC Fortran Language Reference Manual">
+<!ENTITY DEC_FORT_VMS_VAX_UM "DEC Fortran User Manual for OpenVMS VAX Systems">
+<!ENTITY DEC_FORT_VMS_VAX_PERF "DEC Fortran Performance Guide for OpenVMS VAX Systems">
+<!ENTITY DEC_FORT_VMS_VAX_IG "Digital Fortran Installation Guide for OpenVMS VAX Systems">
+<!ENTITY DEC_FORT_VMS_ALPHA_UM "DEC Fortran User Manual for OpenVMS AXP Systems">
+<!ENTITY DEC_FORT_VMS_ALPHA_IG "Digital Fortran Installation Guide for OpenVMS Alpha Systems">
+<!ENTITY DEC_FORT_OSF_ALPHA_IG "Digital Fortran Installation Guide for Digital UNIX Systems">
+<!ENTITY DEC_FORT_OSF_IG "DEC Fortran Installation Guide for DECOSF/1 Systems">
+<!ENTITY DEC_FORT_UX_UM "DEC Fortran User Manual for DEC OSF/1 AXP Systems">
+<!ENTITY DEC_VUIT_IG_RISC "DEC VUIT Installation Guide for RISC Processors">
+<!ENTITY DTM_IG_ULT "DEC Test Manager Installation Guide for ULTRIX Systems">
+<!ENTITY DTM_GD_ULT_FUSE "Guide to DEC Test Manager for ULTRIX Systems">
+<!ENTITY FUSE_ENCASE "DEC FUSE EnCASE Manual">
+<!ENTITY FUSE_RELNOTES "DEC FUSE Release Notes">
+<!ENTITY FUSE_HAND "DEC Fuse Handbook">
+<!ENTITY FUSE_OSF_INSTALL "Installation Instructions for DEC FUSE on DEC OSF/1 AXP">
+<!ENTITY LADEBUG_UNIX_CLI "Digital UNIX Ladebug Debugger Manual: Command-Line Interface">
+<!ENTITY LADEBUG_UNIX_WINDOW "Digital UNIX Ladebug Debugger Manual: Window Interface">
+<!ENTITY VMS_ULT_B_SM_GT "System Manager's Guide to VMS ULTRIX Bridge">
+<!ENTITY VMS_ULT_B_PM "VMS ULTRIX Bridge Programming Manual">
+<!ENTITY VMS_ULT_B_IG "VMS ULTRIX Bridge Installation Guide">
+
+<!ENTITY DEC_PLI_IG "PL/I for OpenVMS Systems Installation Guide">
+<!ENTITY DEC_PLI_REF_MAN "PL/I for OpenVMS Systems Reference Manual">
+<!ENTITY DEC_PLI_UM "PL/I for OpenVMS Systems User Manual">
+<!ENTITY ULTRIX_RISC_PLI_UM "PL/I User's Manual for RISC ULTRIX">
+<!ENTITY ULTRIX_RISC_PLI_IG "PL/I Installation Guide for RISC ULTRIX">
+<!ENTITY VAX_RPG_GT "Guide to VAX RPG II">
+<!ENTITY VAX_RPG_IG "VAX RPG II Installation Guide">
+<!ENTITY VAX_SCAN_IG "VAX SCAN Installation Guide">
+<!ENTITY VAX_SCAN_GT "Guide to VAX SCAN">
+<!ENTITY PDP_SM_IG "PDP-11 SORT/MERGE Installation Guide">
+<!ENTITY PDP_SM_UG "PDP-11 SORT/MERGE User's Guide">
+<!ENTITY COMAGNT_MOM_DEC_REF "POLYCENTER Common Agent Managed Object Module Developer's Reference">
+<!ENTITY COMAGNT_FMSL_REF "POLYCENTER Framework Management Specification Language and Data Types Reference">
+<!ENTITY COMAGNT_GEN_IG "POLYCENTER Common Agent Installation Guide">
+<!ENTITY EMA_DESCRIPTION "Enterprise Management Architecture General Description">
+<!ENTITY EMA_ENTITY_MODEL "Enterprise Management Architecture Entity Model">
+<!ENTITY DES_RBI_VMS "Read Before Installing or Using DECdesign Version 2.0 on VMS Systems">
+<!ENTITY DES_RBI_ULTRIX "Read Before Installing or Using DECdesign Version 2.0 on ULTRIX Systems">
+<!ENTITY DES_GUIDE "Guide to DEC design">
+<!ENTITY DES_IG "DEC design Installation Guide">
+<!ENTITY DES_COAD_REFMAN "Coad/Yourdon Reference Manual">
+<!ENTITY DES_PTECH_REFMAN "Ptech Reference Manual">
+<!ENTITY DES_GANE_SARSON_REFMAN "Gane &amp; Sarson Reference Manual">
+<!ENTITY DES_YOURDON_REFMAN "Yourdon Reference Manual">
+<!ENTITY DES_MERISE_REFMAN "Merise Reference Manual">
+<!ENTITY VAX_COB_GEN_GT "Guide to the VAX COBOL GENERATOR">
+<!ENTITY VAX_COB_GEN_IG "VAX COBOL GENERATOR Installation Guide">
+<!ENTITY VAX_COB_GEN_QR "VAX COBOL GENERATOR Quick Reference Guide">
+<!ENTITY VAX_DEC_CMS_GT "Guide to VAX DEC/Code Management System">
+<!ENTITY VAX_DEC_CMS_IG "VAX DEC/Code Management System Installation Guide">
+<!ENTITY VAX_DEC_MMS_GT "Guide to VAX DEC/Module Management System">
+<!ENTITY VAX_DEC_MMS_IG "VAX DEC/Module Management System Installation Guide">
+<!ENTITY VAX_DEC_SHELL_GT "Guide to VAX DEC/Shell">
+<!ENTITY VAX_DEC_SHELL_IG "VAX DEC/Shell Installation Guide">
+<!ENTITY VAX_DEC_SHELL_QR "VAX DEC/Shell Quick Reference">
+<!ENTITY VAX_DTM_GT "Guide to VAX DEC/Test Manager">
+<!ENTITY VAX_DTM_IG "VAX DEC/Test Manager Installation Guide">
+<!ENTITY VAX_LSE_SCA_UM "VAX Language-Sensitive Editor and VAX Source Code Analyzer User Manual">
+<!ENTITY VAX_LSE_SCA_RM "VAX Language-Sensitive Editor and VAX Source Code Analyzer Reference Manual">
+<!ENTITY VAX_LSE_IG "VAX Language-Sensitive Editor Installation Guide">
+<!ENTITY VAX_SCA_IG "VAX Source Code Analyzer Installation Guide">
+<!ENTITY DEC_NOTES_CD "DEC Notes Command Dictionary">
+<!ENTITY DEC_NOTES_GT "Guide to DEC Notes">
+<!ENTITY DEC_NOTES_QR_CARD "DEC Notes Quick Reference Card">
+<!ENTITY DEC_NOTES_IG "DEC Notes Installation Guide">
+<!ENTITY VAX_PCA_GT "Guide to VAX Performance and Coverage Analyzer">
+<!ENTITY VAX_PCA_IG "VAX Performance and Coverage Analyzer Installation Guide">
+<!ENTITY VAX_SPM_GT "Guide to VAX Software Project Manager">
+<!ENTITY VAX_SPM_IG "VAX Software Project Manager Installation Guide">
+<!ENTITY VAX_SPM_QR "VAX Software Project Manager Quick Reference Guide">
+<!ENTITY VAX_SPM_LTU "Learning to Use VAX Software Project Manager">
+
+
+<!ENTITY DECSET_DESIGN_VMS "Guide to Detailed Program Design for VMS Systems">
+
+<!ENTITY LSE_REF_VMS "Language-Sensitive Editor Reference Manual">
+<!ENTITY LSE_COM_REF_VMS "Language-Sensitive Editor Command-Line Reference">
+
+<!ENTITY SCA_REF_VMS "Source Code Analyzer Reference Manual">
+<!ENTITY SCA_COM_REF_VMS "Source Code Analyzer Command-Line Reference">
+<!ENTITY PCA_COM_REF_VMS "Performance and Coverage Analyzer Command-Line Reference">
+
+<!ENTITY SCA_GD_ULT "Guide to Source Code Analyzer">
+<!ENTITY PCA_GD_ULT "Guide to Performance and Coverage Analyzer for ULTRIX Systems">
+<!ENTITY DTM_GD_ULT "Guide to Test Manager for ULTRIX Systems">
+
+<!ENTITY VNXSET_U "Using VNXset">
+<!ENTITY REM_SYS_MGR_IG "POLYCENTER Software Distribution Installation Guide">
+<!ENTITY REM_SYS_MGR_MGMT_GD "POLYCENTER Software Distribution Management Guide">
+<!ENTITY REM_SYS_MGR_COM_REF "POLYCENTER Software Distribution Command Reference">
+<!ENTITY TMRA1_UG "TeamRoute for ALL-IN-1 User Guide">
+<!ENTITY TMRA1_IG "TeamRoute for ALL-IN-1 Installation and System Management Guide">
+<!ENTITY TMRVMS_PROG "TeamRoute Programming Guide">
+<!ENTITY TMRVMS_IG "TeamRoute for VMS Installation and System Management Guide">
+<!ENTITY TMRVMS_VT_UG "TeamRoute for VMS Video Terminal User Guide">
+<!ENTITY ALL_IN_1_MAIL_SYS_MAN_GD "ALL-IN-1 MAIL System Manager's Guide">
+<!ENTITY ALL_IN_1_MAIL_INSTALL_GD "ALL-IN-1 MAIL Installation Guide">
+
+<!ENTITY ALL_IN_1_MAIL_VT_UG "ALL-IN-1 MAIL for Video Terminals (VT) User's Guide">
+<!ENTITY ALL_IN_1_MAIL_VT_QUICK_REF "ALL-IN-1 MAIL for Video Terminals (VT) Quick Reference Card">
+<!ENTITY ALL_IN_1_MAIL_DOS_UG "ALL-IN-1 MAIL for DOS User's Guide">
+<!ENTITY VIA_SUM_DESC "VAX Information Architecture Summary Description">
+<!ENTITY VIA_DOC_DIR "VAX Information Architecture Documentation Directory, Master Glossary, and Master Index">
+<!ENTITY VIA_CDD_RNOTES "VAX CDD Release Notes">
+<!ENTITY VIA_CDD_IG "VAX CDD Installation Guide">
+<!ENTITY VIA_CDD_UG "VAX Common Data Dictionary User's Guide">
+<!ENTITY VIA_CDD_UTIL_REF_MAN "VAX Common Data Dictionary Utilities Reference Manual">
+<!ENTITY VIA_CDD_DATADEF_REF_MAN "VAX Common Data Dictionary Data Definition Language Reference Manual">
+<!ENTITY VIA_CDDPLUS_RNOTES "VAX CDD/Plus Release Notes">
+<!ENTITY VIA_CDDPLUS_IG "VAX CDD/Plus Installation Guide">
+<!ENTITY VIA_CDDPLUS_UG "VAX CDD/Plus User's Guide">
+<!ENTITY VIA_CDDPLUS_OPER_REF_MAN "VAX CDD/Plus Common Data Dictionary Operator Reference Manual">
+<!ENTITY VIA_CDDPLUS_CALLINT_MAN "VAX CDD/Plus Call Interface Manual">
+<!ENTITY CDDREP_RN_V "CDD/Repository Release Notes">
+<!ENTITY CDDREP_UG_U "Using CDD/Repository on ULTRIX Systems">
+<!ENTITY CDDREP_IG_A "Installing CDD/Repository for OpenVMS AXP Systems">
+<!ENTITY CDDREP_IG_V "Installing CDD/Repository for OpenVMS VAX Systems">
+<!ENTITY CDDREP_IG_U "Installing CDD/Repository on ULTRIX Systems">
+<!ENTITY CDDREP_CALLINT_MAN "CDD/Repository Callable Interface Manual">
+<!ENTITY CDDREP_ARCH_MAN "CDD/Repository Architecture Manual">
+<!ENTITY CDDREP_INFOMODEL_I "CDD/Repository Information Model Volume I">
+<!ENTITY CDDREP_INFOMODEL_II "CDD/Repository Information Model Volume II">
+<!ENTITY CDD_ADMIN_VAX_IG "Installing CDD/Administrator on OpenVMS VAX Systems">
+<!ENTITY CDD_ADMIN_AXP_IG "Installing CDD/Administrator on OpenVMS AXP Systems">
+<!ENTITY VIA_DBMS_RNOTES "DEC DBMS Release Notes">
+<!ENTITY VIA_DBMS_IG "DEC DBMS Installation Guide">
+<!ENTITY VIA_DBMS_INTRO "Introduction to DEC DBMS">
+<!ENTITY VIA_DBMS_PROG_GD "DEC DBMS Programming Guide">
+<!ENTITY VIA_DBMS_PROG_REF "DEC DBMS Programming Reference Manual">
+<!ENTITY VIA_DBMS_DESIGN_GD "DEC DBMS Database Design Guide">
+<!ENTITY VIA_DBMS_SECURE_GD "DEC DBMS Database Security Guide">
+<!ENTITY VIA_DBMS_MAINT_GD "DEC DBMS Database Maintenance and Performance Guide">
+<!ENTITY VIA_DBMS_LOAD_GD "DEC DBMS Database Load/Unload Guide">
+<!ENTITY VIA_DBMS_DBA_REF_MAN "DEC DBMS Database Administration Reference Manual">
+<!ENTITY VIA_DBMS_QUICK_REF "DEC DBMS Quick Reference Guide">
+<!ENTITY VAX_DOC_INSTALL "VAX DOCUMENT Installation Guide">
+<!ENTITY VAX_DOC_LN03_INSTALL "VAX DOCUMENT LN03 Fonts Installation Guide">
+<!ENTITY VAX_DOC_DD_GUIDE "VAX DOCUMENT Designing Doctypes">
+<!ENTITY VAX_DOC_PROD_ONLINE_PRINTED "VAX DOCUMENT Producing Online and Printed Documentation">
+<!ENTITY VAX_DOC_GLOBAL_TAGS_UG "VAX DOCUMENT Using Global Tags">
+<!ENTITY VAX_DOC_DOCTYPES_UG "VAX DOCUMENT Using Doctypes and Related Tags">
+<!ENTITY VAX_DOC_GRAPHICS_UG "VAX DOCUMENT Graphics Editor User's Guide">
+<!ENTITY VAX_DOC_QUICK_REF_GUIDE "VAX DOCUMENT Tags Quick Reference">
+<!ENTITY VAX_DOC_QUICK_REF_CARD "VAX DOCUMENT Quick Reference Card">
+<!ENTITY VAX_DOC_FONTS_IG "VAX DOCUMENT LN03 Fonts Installation Guide">
+<!ENTITY VAX_DOC_STEP "Step-by-Step: Writing with VAX DOCUMENT">
+<!ENTITY VAX_DOC_DES_SAMP "VAX DOCUMENT Design Samples">
+<!ENTITY VAX_DOC_UM_V1 "VAX DOCUMENT User Manual, Volume 1">
+<!ENTITY VAX_DOC_UM_V2 "VAX DOCUMENT User Manual, Volume 2">
+<!ENTITY OPEN3D_GL_UG "Digital Open3D Using Open GL">
+<!ENTITY OPEN3D_EXERCISE "Digital Open3D Test Exerciser for the Graphics Peripheral Set">
+<!ENTITY OPEN3D_VALPHA_IG "Digital Open3D Installation Guide for OpenVMS Alpha Systems">
+<!ENTITY OPEN3D_OALPHA_IG "Digital Open3D Installation Guide for Digital UNIX Systems">
+<!ENTITY OPEN3D_PEXLIB_C "Digital Open3D PEXlib C Binding Reference Manual">
+<!ENTITY OPEN3D_IDL_USER "Digital Open3D IDL User Guide">
+<!ENTITY DEC_GKS_VALPHA_IG "Installing DEC GKS for OpenVMS Alpha Systems">
+<!ENTITY DEC_GKS_MANUAL "DEC GKS Reference Manual">
+<!ENTITY DEC_GKS_GUIDE "DEC GKS User's Guide">
+<!ENTITY DEC_GKS_VAX_IG "Installing Digital GKS for OpenVMS VAX">
+<!ENTITY DEC_GKS_INST_RISC "Installing DEC GKS for ULTRIX on RISC Processors">
+<!ENTITY DEC_GKS_OALPHA_IG "Installing Digital GKS for Digital UNIX Systems">
+<!ENTITY DEC_GKS_C_BIND "DEC GKS C Binding Reference Manual">
+<!ENTITY DEC_GKS_F_BIND "DEC GKS FORTRAN Binding Reference Manual">
+<!ENTITY DEC_GKS_G_BIND "DEC GKS GKS$ Binding Reference Manual">
+<!ENTITY DEC_GKS_3D_BIND "DEC GKS GKS3D$ Binding Reference Manual">
+<!ENTITY DEC_GKS_WSHAND "Building a DEC GKS Workstation Handler System">
+<!ENTITY DEC_GKS_DEVHAND "Building a Device Handler System for DEC GKS and DEC PHIGS">
+<!ENTITY DEC_GKS_DEVMANUAL "DEC GKS Device Specifics Reference Manual">
+<!ENTITY GRAPHICS_DEVSPEC "Device Specifics Reference Manual for  DEC GKS and DEC PHIGS">
+<!ENTITY GKS3D_REFMAN "DEC GKS-3D Reference Manual">
+<!ENTITY GKS3D_G2BIND "DEC GKS-3D GKS$ Binding Reference Manual">
+<!ENTITY GKS3D_G3BIND "DEC GKS-3D GKS3D$ Binding Reference Manual">
+<!ENTITY GKS3D_CBIND "DEC GKS-3D C Binding Reference Manual">
+<!ENTITY GKS3D_FBIND "DEC GKS-3D FORTRAN Binding Reference Manual">
+<!ENTITY GKS3D_USERMAN "DEC GKS-3D User Manual">
+<!ENTITY GKS3D_PRGUIDE "DEC GKS-3D Programmer's Guide">
+<!ENTITY GKS3D_DEVSPEC "DEC GKS-3D Device Specifics Reference Manual">
+<!ENTITY PHIGS_ADA_BIND "DEC PHIGS Ada Binding Reference Manual">
+<!ENTITY PHIGS_VALPHA_IG "Installing Digital PHIGS for OpenVMS Alpha Systems">
+<!ENTITY PHIGS_DEV_GUIDE "DEC PHIGS Developer's Guide">
+<!ENTITY PHIGS_VMS_IG "Installing Digital PHIGS for OpenVMS VAX">
+<!ENTITY PHIGS_RISC_IG "Installing DEC PHIGS for ULTRIX on RISC Processors">
+<!ENTITY PHIGS_VAX_IG "Installing DEC PHIGS for ULTRIX on VAX Processors">
+<!ENTITY PHIGS_OALPHA_IG "Installing Digital PHIGS for Digital UNIX Systems">
+<!ENTITY PHIGS_GET_STARTED "Getting Started with DEC PHIGS">
+<!ENTITY PHIGS_RM "DEC PHIGS Reference Manual">
+<!ENTITY PHIGS_PHIGS_BIND "DEC PHIGS PHIGS$ Binding Reference Manual">
+<!ENTITY PHIGS_FOR_BIND "DEC PHIGS ISO Fortran Binding Reference Manual">
+<!ENTITY PHIGS_C_BIND "DEC PHIGS C Binding Reference Manual">
+<!ENTITY PHIGS_ISO_C_BIND "DEC PHIGS ISO C Binding Reference Manual">
+<!ENTITY PHIGS_DEV_SPEC "DEC PHIGS Device Specifics Reference Manual">
+<!ENTITY ODBC_IUGD "DEC ODBC Driver for MS Windows Installation and User's Guide">
+<!ENTITY VIA_RDB_GET_START "Getting Started with DEC Rdb">
+<!ENTITY RDB_SQL_INTRO "DEC Rdb Introduction to SQL">
+<!ENTITY RDB_SQL_PROG_GD "DEC Rdb Guide to SQL Programming">
+<!ENTITY VIA_RDB_DESIGN_GD "DEC Rdb Guide to Database Design and Definition">
+<!ENTITY VIA_RDB_DIST_TRANS "DEC Rdb Guide to Distributed Transactions">
+<!ENTITY VIA_RDB_GD_MAINT "DEC Rdb Guide to Database Maintenance">
+<!ENTITY VIA_RDB_GD_PERFORM "DEC Rdb Guide to Database Performance and Tuning">
+<!ENTITY VIA_SQL_REF_MAN "DEC Rdb SQL Reference Manual">
+<!ENTITY VIA_RDB_RMURM "DEC Rdb RMU Reference Manual">
+<!ENTITY VIA_RDB_GLOSS_INDEX "DEC Rdb Glossary and Master Index">
+<!ENTITY VIA_RDB_RNOTES "DEC Rdb Release Notes">
+<!ENTITY VIA_RDB_IG "DEC Rdb Installation and Configuration Guide">
+<!ENTITY VIA_RDB_BYI "Before You Install DEC Rdb">
+<!ENTITY VIA_RDB_COURSES "Courses and Training for DEC Rdb and Related Products">
+<!ENTITY VIA_SQLSRVC_USER "DEC Rdb Guide to Using SQL/Services Client APIs">
+<!ENTITY VIA_SQLSRV_IG "DEC Rdb SQL/Services Installation and Configuration Guide">
+<!ENTITY VIA_SQLSRV_RNOTES "DEC Rdb SQL/Services Release Notes">
+<!ENTITY VIA_RDB_NF "DEC Rdb New and Changed Features">
+<!ENTITY VIA_RDB_MIGRATE_GD "Migrating DEC Rdb Databases and Applications to OpenVMS AXP">
+<!ENTITY VIA_RDB_PROG_GD "VAX Guide to Using RDO, RDBPRE, and RDML">
+<!ENTITY VIA_RDB_DATA_MANIP "VAX Guide to Using RDO, RDBPRE, and RDML">
+<!ENTITY VIA_RDB_RDMLRM "RDML Reference Manual">
+<!ENTITY VIA_RDB_RDORM "VAX Rdb/VMS RDO Reference Manual">
+<!ENTITY SQLMM_REF_MAN "SQL Multimedia for DEC Rdb Programmer's Reference Manual">
+<!ENTITY SQLMM_INSTALL_GUIDE "SQL Multimedia for DEC Rdb Installation Guide">
+<!ENTITY SQLMM_RLNOTES "SQL Multimedia for DEC Rdb Release Notes">
+<!ENTITY RDBTRANS "DEC Rdb Language Translators for VMS">
+<!ENTITY VIA_RDB_TRANSLATE_GD "&RDBTRANS; User's Guide">
+<!ENTITY VIA_RDBTRANS_IG "DEC Rdb Language Translators for VMS Installation Guide">
+<!ENTITY SERDB_VMS_SEC_MGR_GD "DEC SERdb for Security-Enhanced VMS Security Manager's Guide">
+<!ENTITY SERDB_VMS_RNOTES "DEC SERdb for Security-Enhanced VMS Release Notes">
+<!ENTITY SERDB_VMS_IG "DEC SERdb for Security-Enhanced VMS Installation Guide">
+<!ENTITY VIA_RDBELN_RNOTES "VAX Rdb/ELN Release Notes">
+<!ENTITY VIA_RDBELN_IG "VAX Rdb/ELN Installation Guide">
+<!ENTITY VIA_RDBELN_TECH_OVER "VAX Rdb/ELN Technical Overview">
+<!ENTITY VIA_RDBELN_APPL_DEV_GD "VAX Rdb/ELN Guide to Application Development">
+<!ENTITY VIA_RDBELN_DATA_MANIP_GD "VAX Rdb/ELN Guide to Data Manipulation">
+<!ENTITY VIA_RDBELN_REF_MAN "VAX Rdb/ELN Reference Manual">
+<!ENTITY VIA_DD_RNOTES "DEC Data Distributor Release Notes">
+<!ENTITY VIA_DD_IG "DEC Data Distributor Installation Guide">
+<!ENTITY VIA_DD_HAND "DEC Data Distributor Handbook">
+<!ENTITY VIA_VIDA_RNOTES "VIDA with IDMS/R Release Notes">
+<!ENTITY VIA_VIDA_IG "VIDA with IDMS/R Installation Guide">
+<!ENTITY VIA_VIDA_OVER "VIDA with IDMS/R Overview">
+<!ENTITY VIA_VIDA_HAND "VIDA with IDMS/R Handbook">
+<!ENTITY VIA_TDMS_RNOTES "VAX TDMS Release Notes">
+<!ENTITY VIA_TDMS_IG "VAX TDMS Installation Guide">
+<!ENTITY VIA_TDMS_FORMS "VAX TDMS Forms Manual">
+<!ENTITY VIA_TDMS_REF_MAN "VAX TDMS Reference Manual">
+<!ENTITY VIA_TDMS_POCKET "VAX TDMS Pocket Guide">
+<!ENTITY VIA_TDMS_REQUEST_MAN "VAX TDMS Request and Programming Manual">
+<!ENTITY VIA_ACMS_RNOTES "ACMS Release Notes">
+<!ENTITY VIA_ACMS_IG "ACMS Installation Guide">
+<!ENTITY VIA_ACMS_WRITING_APPL "ACMS Writing Applications">
+<!ENTITY VIA_ACMS_TUTORIAL "ACMS Getting Started">
+<!ENTITY VIA_ACMS_WRITING_PROC "ACMS Writing Server Procedures">
+<!ENTITY VIA_ACMS_MGMT_GD "ACMS Managing Applications">
+<!ENTITY VIA_ACMS_TERM_UG "ACMS Terminal User's Guide">
+<!ENTITY VIA_ACMS_ADU_REF_MAN "ACMS ADU Reference Manual">
+<!ENTITY VIA_ACMS_SYS_INTER_GD "ACMS Systems Interface Programming">
+<!ENTITY VIA_ACMS_TP_POCKET "ACMS Quick Reference Guide">
+<!ENTITY VIA_ACMS_INTRO "ACMS Introduction">
+<!ENTITY VIA_TP_CASE_STUDY "A TP System Case Study: Database and Application Development">
+<!ENTITY VIA_ACMS_CONCEPTS_DES "ACMS Concepts and Design Guidelines">
+<!ENTITY VIA_ACMS_AVERTZ_OVERVIEW "ACMS AVERTZ Overview">
+<!ENTITY VIA_ACMS_INTER_CICS "ACMS Interoperability with IBM LU6.2 and CICS">
+<!ENTITY VIA_ACMS_INTER_DATABASE "ACMS Interoperability with Non-Digital Databases: ORACLE Case Study">
+<!ENTITY VIA_ACMS_MIGRATE_AXP "ACMS Writing and Migrating Applications for OpenVMS AXP">
+<!ENTITY ACMS_DI_PROG "ACMS Desktop for OpenVMS Programming and Management Guide">
+<!ENTITY ACMS_DI_REF "ACMS Desktop for OpenVMS Reference Manual">
+<!ENTITY ACMS_DI_INSTALL_GUIDE "ACMS Desktop for OpenVMS Installation Guide">
+<!ENTITY ACMS_DI_RELEASE_NOTES "ACMS Desktop for OpenVMS Release Notes">
+<!ENTITY ACMS_DI_SPI "DECtp Desktop for ACMS Training Guide">
+<!ENTITY ACMS_DI_PROG_OSF "ACMS Desktop for OSF/1 Application Development Guide">
+<!ENTITY ACMS_DI_INSTALL_GUIDE_OSF "ACMS Desktop for OSF/1 Installation Guide">
+<!ENTITY ACMS_DI_RELEASE_NOTES_OSF "ACMS Desktop for OSF/1 Release Notes">
+<!ENTITY RDBXPRT_IG "DEC RdbExpert for VMS Installation Guide">
+<!ENTITY RDBXPRT_UG "DEC RdbExpert for VMS User's Guide">
+<!ENTITY RDBXPRT_RNOTES "DEC RdbExpert for VMS Release Notes">
+<!ENTITY ORACLEHB "DEC RdbAccess for ORACLE User's Guide">
+<!ENTITY ORACLEIG "DEC RdbAccess for ORACLE Installation Guide">
+<!ENTITY DB2CUG "DEC RdbAccess Client for DB2 User's Guide">
+<!ENTITY DB2CIG "DEC RdbAccess Client for DB2 Installation Guide">
+<!ENTITY DB2SERVIG "DEC RdbAccess Server for DB2 Installation and Administration Guide">
+<!ENTITY VIA_DTR_BYI "DEC DATATRIEVE Before You Install Letter">
+<!ENTITY VIA_DTR_INTERFACE_GD "DEC DATATRIEVE Guide to Interfaces">
+<!ENTITY VIA_DTR_RNOTES "DEC DATATRIEVE Release Notes">
+<!ENTITY VIA_DTR_IG "DEC DATATRIEVE Installation Guide">
+<!ENTITY VIA_DTR_UG "DEC DATATRIEVE User's Guide">
+<!ENTITY VIA_DTR_REF_MAN "DEC DATATRIEVE Reference Manual">
+<!ENTITY VIA_DTR_PROG_CUST_GD "DEC DATATRIEVE Guide to Programming and Customizing">
+<!ENTITY DTR_CLIENT_GET_START "Getting Started with DEC DATATRIEVE Client for Windows">
+<!ENTITY RALLY_RALWIN_UG "DEC RALLY for Windows User's Guide">
+<!ENTITY RALLY_PRIMER "Introduction to DEC RALLY">
+<!ENTITY RALLY_DEV_APPL "Developing DEC RALLY Applications">
+<!ENTITY RALLY_USE_APPL "Using DEC RALLY Applications">
+<!ENTITY RALLY_VMS_BYI "Read Before Installing DEC RALLY for OpenVMS Systems">
+<!ENTITY RALLY_VMSVAX_BYI "Read Before Installing DEC RALLY for OpenVMS Systems">
+<!ENTITY RALLY_VMS_IG "Installing DEC RALLY for OpenVMS Systems">
+<!ENTITY RALLY_MSDOS_IG "Installing DEC RALLY for MS-DOS Systems">
+<!ENTITY RALLY_MSDOS_BYI "Read Before Installing DEC RALLY for MS-DOS">
+<!ENTITY RALLY_ULTRIX_IG "Installing DEC RALLY for ULTRIX Systems">
+<!ENTITY RALLY_TBI "DEC RALLY:  Tutorial">
+<!ENTITY RALLY_RNOTES "DEC RALLY Release Notes">
+<!ENTITY RALLY_CMD_REF "DEC RALLY Command Reference Manual">
+<!ENTITY VIA_TEAMDATA_IG "VAX TEAMDATA Installation Guide">
+<!ENTITY VIA_TEAMDATA_RNOTES "VAX TEAMDATA Release Notes">
+<!ENTITY VIA_TEAMDATA_INTRO "Introduction to VAX TEAMDATA">
+<!ENTITY VIA_TEAMDATA_USING "Using VAX TEAMDATA">
+<!ENTITY VIA_TEAMDATA_COMSUM "VAX TEAMDATA Command Summary">
+<!ENTITY VIA_TEAMDATA_QUICKREF "VAX TEAMDATA Quick Reference Guide">
+<!ENTITY VIA_TEAMDATA_RALLY_UG "RALLY Application User's Guide">
+<!ENTITY DECWR_QUICK_REF_VMS "DECwrite Quick Reference Card for VMS">
+<!ENTITY DECWR_QUICK_REF_ULTRIX "DECwrite Quick Reference Card for ULTRIX Systems">
+<!ENTITY DECWR_SUPP_VMS "DECwrite Supplement for VMS Systems">
+<!ENTITY DECWR_SUPP_ULTRIX "DECwrite Supplement for ULTRIX Systems">
+<!ENTITY DECWR_UG "DECwrite User's Guide">
+<!ENTITY DECWR_USER_REF "DECwrite User's Guide">
+<!ENTITY DECWR_SUN_IG "DECwrite Installation Guide for Sun's SPARC stations">
+<!ENTITY DECWR_CDA_CVT_LIB "Using the DECwrite CDA Converters">
+<!ENTITY DECWR_QK_LKUP "DECwrite Quick Lookup">
+<!ENTITY DECWR_CHT_GET_START "DECchart Getting Started">
+<!ENTITY DECWR_CHT_UG "DECchart User's Guide">
+<!ENTITY DECWR_SMPL_DOC "DECwrite Sample Documents">
+<!ENTITY DECWR_VMS_IG "DECwrite Installation Guide for VMS Systems">
+<!ENTITY DECWR_ULTRIX_IG "DECwrite Installation Guide for ULTRIX Systems">
+<!ENTITY DECWR_VMS_RNOTES "DECwrite for VMS Release Notes">
+<!ENTITY DECWR_DOC_SUPP "DECwrite Documentation Supplement">
+<!ENTITY DECWR_OS2_USER_REF "DECwrite for OS/2 User's Guide">
+<!ENTITY DECWR_OS2_QK_REF "DECwrite for OS/2 Quick Reference Card">
+<!ENTITY DECWR_OS2_IG "DECwrite for OS/2 Installation">
+<!ENTITY DECWR_OS2_KBD_TEMP "DECwrite for OS/2 Keyboard Template">
+<!ENTITY DECWR_OS2_DEMO "DECwrite for OS/2 Demonstration Document">
+<!ENTITY DECWR_OS2_GET_START "DECwrite for OS/2 Getting Started">
+<!ENTITY DECPR_UG "DECpresent User's Guide">
+<!ENTITY DECPR_LEARN "DECpresent Learn Modules">
+<!ENTITY DECPR_QUICKREF_CARD "DECpresent Quick Reference Card">
+<!ENTITY DECPR_VMS_IG "DECpresent Installation Guide for VMS Systems">
+<!ENTITY DECPR_ULTRIX_IG "DECpresent Installation Guide for ULTRIX Systems">
+<!ENTITY DECPR_RN "DECpresent Release Notes">
+<!ENTITY WPS_VMS_IG "WPS-PLUS for VMS Installation Guide">
+<!ENTITY WPS_PLUS_USER_REF "WPS-PLUS for VMS User's Reference">
+<!ENTITY WPS_GET_START "WPS-PLUS for VMS Getting Started">
+<!ENTITY WPS_MOD_PRNTR_TBL_GD "WPS-PLUS for VMS Printer Characteristics">
+<!ENTITY WPS_KBD_REF_CD "WPS-PLUS for VMS Keyboard Reference Cards">
+<!ENTITY WPS_QK_LKUP "WPS-PLUS for VMS Mini-Reference">
+<!ENTITY WPS_MT "WPS-PLUS Making the Transition to Proportional Printing">
+<!ENTITY WPS_DOS_USER_REF "WPS-PLUS for DOS User's Reference">
+<!ENTITY WPS_DOS_IG "WPS-PLUS for DOS Installation Guide">
+<!ENTITY WPS_DOS_MOD_PRNTR_TBL_GD "WPS-PLUS for DOS Printer Characteristics">
+<!ENTITY WPS_DOS_KBDS "WPS-PLUS for DOS Keyboard Reference">
+<!ENTITY PRTSVR_MGMT_UG "PrintServer Management User's Guide">
+<!ENTITY DECPG_UG "DECpage User's Guide">
+<!ENTITY GRAM_CHK_UG "VAX Grammar Checker User's Guide">
+<!ENTITY WPS_ALLIN1_MOD_PRNTR_TBL_GD "WPS-PLUS Printer Characteristics">
+<!ENTITY WPS_ALLIN1_USER_REF "WPS-PLUS User's Reference">
+<!ENTITY PATH_CCR "PATHWORKS for DOS Client Commands Reference">
+<!ENTITY PATH_UH "PATHWORKS for DOS User's Handbook">
+<!ENTITY PATH_TEG "PATHWORKS for DOS Terminal Emulation Guide">
+
+<!ENTITY MICRO_USER_GD "Microsoft Windows User's Guide">
+<!ENTITY LANG_LEX_VAX_IG "International Lexicons for VMS Installation Guide">
+<!ENTITY INTL_LEX_SUN_IG "International Lexicons for SUN SPARC station Installation Guide">
+<!ENTITY TEAMLINK_MICRO_UG "TeamLinks for Windows User's Guide">
+<!ENTITY TEAMLINK_CONN_ALL_IN_1 "TeamLinks Connection to ALL-IN-1">
+<!ENTITY DECDEC_IG "DECdecision Installation and System Management Guide">
+<!ENTITY OVER "DECdecision Overview">
+<!ENTITY CHART_UG "DECchart User's Guide">
+<!ENTITY CALC_UG "DECdecision Calc User's Guide">
+<!ENTITY DATA_UG "DECdecision Access User's Guide">
+<!ENTITY LEGO_UG "DECdecision Builder User's Guide">
+<!ENTITY CALC_FR_UG "DECdecision Calc Macro Guide">
+<!ENTITY TAB_CONV_RG "Converters Reference Guide">
+<!ENTITY QUERY_GET_START_VMS_ULTRIX "Getting Started with DECquery for VMS and DECquery for ULTRIX">
+<!ENTITY QUERY_IG_ULTRIX "DECquery for ULTRIX Installation and System Management Guide">
+<!ENTITY QUERY_IG_VMS "DECquery for VMS Installation and System Management Guide">
+<!ENTITY INTER_CONV_INSTALL_VMS "CDA Interleaf Converter Installation Guide for VMS Systems">
+<!ENTITY INTER_CONV_USERS_VMS "CDA Interleaf Converter User's Guide for VMS Systems">
+<!ENTITY INTER_CONV_INSTALL_ULT "CDA Interleaf Converter Installation Guide for ULTRIX Systems">
+<!ENTITY INTER_CONV_USERS_ULT "CDA Interleaf Converter User's Guide for ULTRIX Systems">
+<!ENTITY CDA_CVT_LIB_REF "Technical Guide to the CDA Converters">
+<!ENTITY CDA_CVT_LIB_IG "CDA Converter Library Installation Guide">
+<!ENTITY CDA_CVT_LIB_USING "Using the CDA Converters">
+<!ENTITY CDA_OS2_DOC_SUPP "OS/2 Documentation Supplement for the CDA Base Services">
+<!ENTITY CDA_OS2_TOOLKIT_UG "Using the CDA Base Services for OS/2">
+<!ENTITY CDA_WRITE_CONVERTERS "Writing Converters Using the DEC CDA Base Services">
+<!ENTITY CDA_DDIF_SPEC "DDIF Technical Specification">
+<!ENTITY CDA_DTIF_SPEC "DTIF Technical Specification">
+<!ENTITY CDA_COOKBOOK "Creating Compound Documents Using the DEC CDA Base Services">
+<!ENTITY CDA_TOOLKIT_INTRO "Technical Overview of the DEC CDA Base Services">
+<!ENTITY CDA_TOOLKIT_REFMAN "Reference Manual">
+<!ENTITY ACS_PROG_GD "ACS System Integrator and Programmer Guide">
+<!ENTITY ACS_REF_MAN "ACS Reference Manual">
+<!ENTITY ACS_MIG_GD "ACS Migration Guide">
+<!ENTITY DDIS_TOOLKIT_UG "Guide to Using the DDIS Toolkit">
+<!ENTITY SOFT_ENG_MANUAL "Software Engineering Manual">
+<!ENTITY NAS_ARCH_REF_MAN "The Middleware Source Book">
+<!ENTITY NAS_DESIGN_GUIDE "NAS Guide to Designing a Portable Programming Interface">
+<!ENTITY NAS_MULTI_PLATFORM_DOC_GUIDE "NAS Guide to Documenting Multiplatform Products">
+<!ENTITY NAS_PORTABLE_SW_GUIDE "NAS Guide to Developing Portable Software">
+<!ENTITY NAS_INTERFACE_USERS_GUIDE "NAS Guide to Using a Portable Programming Interface">
+<!ENTITY NAS_OVERVIEW "NAS Overview">
+<!ENTITY NAS_STYLE_GUIDE "NAS Application Style Guide">
+<!ENTITY TRELLIS_BYI "Before You Install DEC Trellis Object System Letter">
+<!ENTITY TRELLIS_RNOTES "DEC Trellis Object System Release Notes">
+<!ENTITY TRELLIS_INTRO "DEC Trellis Object System Introduction">
+<!ENTITY TRELLIS_PROG_GD "DEC Trellis Object System Guide to Programming">
+<!ENTITY TRELLIS_LANG_REFMAN "DEC Trellis Object System Language Reference Manual">
+<!ENTITY TRELLIS_LIB_REFMAN "DEC Trellis Object System Type Library Reference Manual">
+<!ENTITY TRELLIS_TOOLS_GD "DEC Trellis Object System Guide to Tools">
+<!ENTITY TRELLIS_VMS_IG "DEC Trellis Object System Installation Guide for VMS">
+<!ENTITY TRELLIS_UR_IG "DEC Trellis Object System Installation Guide for ULTRIX">
+<!ENTITY DEC_VUIT_UG "DEC VUIT User's Guide">
+<!ENTITY DEC_VUIT_IG "DEC VUIT Installation Guide">
+<!ENTITY DEC_VUIT_INTER_MAP "DEC VUIT Interface Map">
+<!ENTITY ELN_AD_BOOK "VAXELN Application Design Guide">
+<!ENTITY ELN_CRM_BOOK "VAXELN C Reference Manual">
+<!ENTITY ELN_CRTL_BOOK "VAXELN C Runtime Library Reference Manual">
+<!ENTITY ELN_DU_BOOK "VAXELN Development Utilities Guide">
+
+<!ENTITY ELN_FRTL_BOOK "VAXELN FORTRAN Runtime Library Reference Manual">
+<!ENTITY ELN_INDEX_BOOK "VAXELN Master Index and Glossary">
+<!ENTITY ELN_INST_BOOK "VAXELN Installation Guide">
+<!ENTITY ELN_INTERN_BOOK "VAXELN Internals and Data Structures">
+<!ENTITY ELN_INTRO_BOOK "Introduction to VAXELN">
+<!ENTITY ELN_MSG_BOOK "VAXELN Messages Manual">
+<!ENTITY ELN_PLANG_BOOK "VAXELN Pascal Language Reference Manual">
+<!ENTITY ELN_POCK_BOOK "VAXELN Pocket Reference">
+<!ENTITY ELN_PRTL_BOOK "VAXELN Pascal Runtime Library Reference Manual">
+<!ENTITY ELN_RLN_BOOK "VAXELN Release Notes">
+<!ENTITY ELN_RTF_BOOK "VAXELN Runtime Facilities Guide">
+<!ENTITY ELN_RT300_BOOK "VAXELN rtVAX 300 Supplement">
+<!ENTITY REALTIME_TS_BOOK "Realtime Products Technical Summary">
+<!ENTITY NONSQL_SERVER_DRIVER_GUIDE "DEC DB Integrator Gateway for Custom Drivers Driver Development Guide">
+<!ENTITY NONSQL_SERVER_UG "Accessing Nonrelational Data with SQL">
+<!ENTITY NONSQL_SERVER_RNOTES "DEC DB Integrator Gateway for Custom Drivers/DEC DB Integrator Gateway for RMS Release Notes">
+<!ENTITY NONSQL_SERVER_IG "DEC DB Integrator Gateway for Custom Drivers/DEC DB Integrator Gateway for RMS Installation Guide">
+<!ENTITY RMS_DDI_UG "Accessing RMS and VSAM Files with SQL">
+<!ENTITY FMS_INTRO "DEC FMS for OpenVMS Systems Introduction">
+<!ENTITY FMS_UTIL_REF "DEC FMS for OpenVMS Systems Utilities Reference Manual">
+<!ENTITY FMS_FMDRV_REF "DEC FMS for OpenVMS Systems Form Driver Reference Manual">
+<!ENTITY FMS_MINI "DEC FMS for OpenVMS Systems Mini-Reference">
+<!ENTITY FMS_IG "DEC FMS for OpenVMS Systems Installation Guide">
+
+<!ENTITY DSS_UG "DECimage Scan Software User's Guide">
+<!ENTITY DSS_INS "DECimage Scan Software Installation Guide">
+<!ENTITY DSS_REL "DECimage Scan Software Release Notes">
+<!ENTITY DECDNS_MANAGE_BOOK "DECdns Management">
+<!ENTITY DECDNS_PROG_BOOK "DECdns Programming">
+<!ENTITY DTS_SERVER_INSTALL "DECdts Server Installation">
+<!ENTITY DTS_MGMT "DECdts Management">
+<!ENTITY DTS_PROGRAMMING "DECdts Programming">
+<!ENTITY DECPLAN_GD "Guide to DECplan">
+<!ENTITY DECPLAN_TM_GD "Guide to DECplan Time Manager">
+<!ENTITY DECPLAN_IG "DECplan Installation Guide">
+
+<!ENTITY BOOKRDR_UG "Using Bookreader">
+<!ENTITY MDF_CONFIGURATIONS "VAXcluster Multi-Datacenter Facility: Configuration Guidelines for VAXcluster System Configurations">
+<!ENTITY MDF_MANAGERS_GUIDE "VAXcluster Multi-Datacenter Facility: Managing a Multi-Datacenter VAXcluster System">
+<!ENTITY BRS_CONFIGURATIONS "Planning and Configuring the Business Recovery Server">
+<!ENTITY BRS_MANAGERS_GUIDE "Managing the Business Recovery Server">
+<!ENTITY BRS_RELNOTES "Business Recovery Server Version 1.4 Release Notes">
+<!ENTITY BRS_INSTALL "Installing the Business Recovery Server Software">
+<!ENTITY CLUSTER_SYS_CONFIG_GDLN "Guidelines for VAXcluster System Configurations">
+<!ENTITY EXT_VERS_GD "Guide to the Extensible Versatile Editor">
+<!ENTITY EXT_VERS_REF_MAN "Extensible Versatile Editor Reference Manual">
+<!ENTITY DEC_TPU_IG "DEC Text Processing Utility Installation Guide">
+<!ENTITY DECRPT_WINDOWS "DECreport for Microsoft Windows">
+<!ENTITY DOSAP_VMS_IG "DECosap for VMS Installation Guide">
+<!ENTITY DOSAP_VMS_MGR_PROG_GD "DECosap for VMS Network Manager's and Programmer's Guide">
+<!ENTITY DOSAP_ULT_IG "DECosap for ULTRIX Installation Guide">
+<!ENTITY DOSAP_ULT_MGR_PROG_GD "DECosap for ULTRIX Network Manager's and Programmer's Guide">
+<!ENTITY BSTAR_ULT_IG "BASEstar for ULTRIX Installation Guide">
+<!ENTITY BSTAR_ULT_INTRO "BASEstar for ULTRIX Introduction">
+<!ENTITY BSTAR_ULT_REF_GD "BASEstar for ULTRIX Reference Guide">
+<!ENTITY BSTAR_ULT_MSG "BASEstar for ULTRIX Messages">
+<!ENTITY BSTAR_ULT_MGT_GD "BASEstar for ULTRIX Management Guide">
+<!ENTITY BSTAR_ULT_CLI "BASEstar for ULTRIX Command Line Interface">
+<!ENTITY BSTAR_ULT_API "BASEstar for ULTRIX Application Programming Interface">
+<!ENTITY BSTAR_ULT_DEV_UG "BASEstar for ULTRIX Device Access Software User Guide">
+
+<!ENTITY MACRO64_VMS_ALPHA_IG "MACRO-64 Assembler for OpenVMS AXP Systems Installation Guide">
+<!ENTITY MACRO64_VMS_ALPHA_RBI "Read Before Installing or Using MACRO-64 Assembler for OpenVMS AXP Systems">
+<!ENTITY XDESKTOP_35_IDEAS_GUIDE "X.desktop 3.5 Ideas Guide">
+<!ENTITY XDESKTOP_35_GETTING_STARTED "X.desktop 3.5 Getting Started">
+<!ENTITY XDESKTOP_35_REFERENCE_GUIDE "X.desktop 3.5 Reference Guide">
+<!ENTITY VMS_ALPHA_TRANS_IMAGES "DECmigrate for OpenVMS AXP Systems Translating Images">
+<!ENTITY MIGRATE_VMS_ALPHA_IG "DECmigrate for OpenVMS AXP Systems Installation Guide">
+<!ENTITY ULTRIX_GI_VI_BEG_REF_CD "vi Beginner's Reference Card">
+<!ENTITY ULTRIX_GI_FILE_SYS_VIDEO "ULTRIX file system videotape">
+<!ENTITY ULTRIX_GI_TECH_SUM "Technical Summary">
+<!ENTITY ULTRIX_GI_RDR_GD_MSTR_INX "Reader's Guide and Master Index">
+<!ENTITY ULTRIX_GI_REFPG_UNSUPP_SOFT "Reference Pages for Unsupported Software">
+<!ENTITY ULTRIX_GI_LITTLE_GRAY "The Little Gray Book: An ULTRIX Primer">
+<!ENTITY ULTRIX_GI_BIG_GRAY "The Big Gray Book: The Next Step with ULTRIX">
+<!ENTITY ULTRIX_GI_NAWK_GD "Guide to the nawk Utility">
+<!ENTITY ULTRIX_GI_USR_SECUR_GD "Security Guide for Users">
+<!ENTITY ULTRIX_GI_REFPG_MAC_PKG "Reference Pages Section 7: Macro Packages and Conventions">
+<!ENTITY ULTRIX_GI_REFPG_A_L "Reference Pages Section 1: Commands A-L">
+<!ENTITY ULTRIX_GI_REFPG_M_Z "Reference Pages Section 1: Commands M-Z">
+<!ENTITY ULTRIX_GI_RNOTES "Release Notes">
+<!ENTITY ULTRIX_GI_RNOTES_ADD "Release Notes Addendum">
+<!ENTITY ULTRIX_SNM_SOFT_LCNS "Guide to Software Licensing">
+<!ENTITY ULTRIX_SNM_SYS_ENV_GD "Guide to System Environment Setup">
+<!ENTITY ULTRIX_SNM_SYS_NET_GD "Guide to System and Network Setup">
+<!ENTITY ULTRIX_SNM_LOC_BKR_GD "Guide to the Location Broker">
+<!ENTITY ULTRIX_SNM_ADMIN_SEC_GD "Security Guide for Administrators">
+<!ENTITY ULTRIX_SNM_PRTSVR_CLIENT_GD "Guide to PrintServer Clients">
+<!ENTITY ULTRIX_SNM_CNFG_FI_MAINT_GD "Guide to Configuration File Maintenance">
+<!ENTITY ULTRIX_SNM_SHUT_START_GD "Guide to Shutdown and Startup">
+<!ENTITY ULTRIX_SNM_BKUP_RES_GD "Guide to Backup and Restore">
+<!ENTITY ULTRIX_SNM_DISK_MAINT_GD "Guide to Disk Maintenance">
+<!ENTITY ULTRIX_SNM_CRASH_RECOV_GD "Guide to System Crash Recovery">
+<!ENTITY ULTRIX_SNM_ERR_LOG_GD "Guide to the Error Logger">
+<!ENTITY ULTRIX_SNM_SYS_EXER_GD "Guide to System Exercisers">
+<!ENTITY ULTRIX_SNM_KER_MSG_REFMAN "Kernel Messages Reference Manual">
+<!ENTITY ULTRIX_SNM_INTRO_NET_DIST "Introduction to Networking and Distributed System Services">
+<!ENTITY ULTRIX_SNM_ETH_COMM_SVR_GD "Guide to Ethernet Communications Servers">
+<!ENTITY ULTRIX_SNM_NET_FIL_SYS_GD "Guide to the Network File System">
+<!ENTITY ULTRIX_SNM_BND_HES_SVC_GD "Guide to the BIND/Hesiod Service">
+<!ENTITY ULTRIX_SNM_FINGER_WALK_GD "Guide to the Yellow Pages Service">
+<!ENTITY ULTRIX_SNM_KERBEROS_GD "Guide to Kerberos">
+<!ENTITY ULTRIX_SNM_UUCP_GD "Guide to the uucp Utility">
+<!ENTITY ULTRIX_SNM_IBM_TRM_EMU_GD "Guide to IBM Terminal Emulation for VAX Processors">
+<!ENTITY ULTRIX_SNM_SVR_SETUP_GD "Guide to Server Setup">
+<!ENTITY ULTRIX_SNM_DSKLS_MGMT_GD "Guide to Diskless Management Services">
+<!ENTITY ULTRIX_SNM_REM_INSTAL_GD "Guide to Remote Installation Services">
+<!ENTITY ULTRIX_SNM_REFPG_SPCL_FIL "Reference Pages, Section 4:Special Files">
+<!ENTITY ULTRIX_SNM_REFPG_FIL_FRMT "Reference Pages, Section 5:File Formats">
+<!ENTITY ULTRIX_SNM_REFPG_MAINT "Reference Pages, Section 8: Maintenance">
+<!ENTITY ULTRIX_DEV_LANG_PROG_GD "Guide to Languages and Programming">
+<!ENTITY ULTRIX_DEV_DEV_INTER_SOFT_GD "Guide to Developing International Software">
+<!ENTITY ULTRIX_DEV_SCRN_HANDL_GD "Guide to X/Open curses Screen Handling">
+<!ENTITY ULTRIX_DEV_SCCS_GD "Guide to the Source Code Control System">
+<!ENTITY ULTRIX_DEV_PREP_SOFT_REL_GD "Guide to Preparing Software for Distribution on ULTRIX Systems">
+<!ENTITY ULTRIX_DEV_PKT_FILT "The Packet Filter: An Efficient Mechanism for User-Level Network Code">
+<!ENTITY ULTRIX_DEV_POSIX_CONF_DOC "POSIX Conformance Document">
+<!ENTITY ULTRIX_DEV_VAX_C_GD "Guide to VAX C for ULTRIX">
+<!ENTITY ULTRIX_DEV_NET_PROG_GD "Guide to Network Programming">
+<!ENTITY ULTRIX_DEV_XTRANS_INT_GD "Guide to the X/Open Transport Interface">
+<!ENTITY ULTRIX_DEV_DECRPC_PROG_GD "DECrpc Programming Guide">
+<!ENTITY ULTRIX_DEV_DATA_LINK_INTER_GD "Guide to the Data Link Interface">
+<!ENTITY ULTRIX_DEV_REFPG_SYS_CALL "Reference Pages, Section 2:System Calls">
+<!ENTITY ULTRIX_DEV_REFPG_LIB_RTN "Reference Pages, Section 3:Library Routines">
+<!ENTITY ULTRIX_SUP_GEN_USR "Supplementary Documents, Volume 1:General User">
+<!ENTITY ULTRIX_SUP_PROG "Supplementary Documents, Volume 2: Programmer">
+<!ENTITY ULTRIX_SUP_SYS_MNGR "Supplementary Documents, Volume 3:System Manager">
+<!ENTITY ULTRIX_SQL_RNOTES "ULTRIX/SQL Release Notes">
+<!ENTITY ULTRIX_SQL_OPER_GD "ULTRIX/SQL Operations Guide">
+<!ENTITY ULTRIX_SQL_NET_UG "ULTRIX/SQL NET User's Guide">
+<!ENTITY ULTRIX_SQL_DBA_GD "ULTRIX/SQL Database Administrator's Guide">
+<!ENTITY ULTRIX_SQL_REFMAN "ULTRIX/SQL Reference Manual">
+<!ENTITY ULTRIX_SQL_ERR_MSG_DICT "ULTRIX/SQL Error Message Dictionary">
+<!ENTITY ULTRIX_SUP_BASIC_IG "Basic Installation Guide">
+<!ENTITY ULTRIX_SUP_ADV_IG "Advanced Installation Guide">
+<!ENTITY ULTRIX_SUP_SQL_IG "ULTRIX/SQL Installation Guide">
+<!ENTITY ULTRIX_SUP_CAP_UPGD_IG "Capacity Upgrade Installation Instructions">
+<!ENTITY ULTRIX_SUP_CRYPT_UP_IG "Encryption Upgrade Installation Instructions">
+<!ENTITY ULTRIX_SUP_SOURCE_IG "Installing ULTRIX Source Files">
+<!ENTITY ULTRIX_CLIENT_INSTALL_GUIDE "InfoServer Client for ULTRIX Installation and Administrator's Guide">
+<!ENTITY VMS_CDROM_V50 "VMS Version 5.0 Compact Disk Booklet">
+<!ENTITY VMS_CDROM_V501 "VMS Version 5.0-1 CD ROM">
+<!ENTITY VMS_CDROM_V502 "VMS Version 5.0-2 CD ROM">
+<!ENTITY VMS_CD_BIN_V51 "VMS Version 5.1 Compact Disc">
+
+<!ENTITY VMS_CDROM_V51B "VMS Version 5.1-B Compact Disc">
+<!ENTITY VMS_CD_BIN_V511 "VMS Version 5.1-1">
+<!ENTITY VMS_CD_BIN_V511_FIREFOX "VMS Version 5.1-1 for VAXstation 3520, 3540">
+<!ENTITY VMS_CD_BIN_V52 "VMS Version 5.2 Compact Disc Booklet">
+<!ENTITY VMS_CD_BIN_V521 "VMS Version 5.2-1 Compact Disc Booklet">
+<!ENTITY VMS_CD_BIN_V53 "VMS Version 5.3 Compact Disc Booklet">
+<!ENTITY VMS_CD_BIN_V531 "VMS Version 5.3-1 Compact Disc Booklet">
+<!ENTITY VMS_CD_BIN_V532 "VMS Version 5.3-2 Compact Disc Booklet">
+<!ENTITY VMS_CD_BIN_V54 "VMS Version 5.4 Compact Disc Booklet">
+<!ENTITY VMS_CD_BIN_V541 "VMS Version 5.4-1 Compact Disc Booklet">
+<!ENTITY VMS_CD_BIN_V542 "VMS Version 5.4-2 Compact Disc Booklet">
+<!ENTITY VMS_CD_BIN_V543 "VMS Version 5.4-3 Compact Disc Booklet">
+<!ENTITY VMS_CD_BIN_V55 "VMS Version 5.5 Compact Disc Booklet">
+<!ENTITY VMS_CD_BIN_V551 "VMS Version 5.5-1 Compact Disc Booklet">
+<!ENTITY VMS_CD_BIN_V551HW "VMS Version 5.5-1HW Compact Disc Booklet">
+<!ENTITY VMS_CD_BIN_V552 "VMS Version 5.5-2 Compact Disc Booklet">
+<!ENTITY VMS_CD_BIN_V552_RM "VMS Remastered Version 5.5-2 Compact Disc Booklet">
+<!ENTITY VMS_CD_BIN_V552H4 "OpenVMS VAX Version 5.5-2H4 Compact Disc Booklet">
+<!ENTITY VMS_CD_SOURCE_VAX "OpenVMS VAX Source Listings Compact Disc Booklet">
+<!ENTITY VMS_CD_SOURCE_AXP "OpenVMS AXP Source Listings Compact Disc User's Guide">
+<!ENTITY VMS_CD_DECUS_SAMPLER "DECUS Sampler for OpenVMS CompactDisc User's Guide">
+<!ENTITY VMS_CD_BIN_V60 "OpenVMS VAX Version 6.0 Compact Disc Booklet">
+<!ENTITY VMS_ALPHA_CD_BIN_V10 "OpenVMS AXP Version 1.0 Compact Disc User's Guide">
+<!ENTITY VMS_ALPHA_CD_AMC_TOOLKIT "Alpha Migration CenterPorting Toolkit Compact Disc Booklet">
+<!ENTITY VMS_DESKTOP_CD_BIN_V10 "Desktop-VMS Software Version 1.0 Compact Disc">
+<!ENTITY CONDIST_BIN_JAN89 "VMS Compact Disc Distribution for Software Products">
+<!ENTITY CONDIST_BIN_MAR89 "VMS Compact Disc Distribution for Software Products">
+<!ENTITY CONDIST_BIN_MAY89 "VMS Compact Disc Distribution for Software Products">
+<!ENTITY CONDIST_BIN_JAN90 "VMS Consolidated Distribution for Software Products Booklet">
+<!ENTITY CONDIST_DOC_JAN89 "VMS Online Documentation Library Compact Disc">
+<!ENTITY CONDIST_DOC_MAR89 "VMS Online Documentation Library Compact Disc">
+<!ENTITY CONDIST_DOC_MAY89 "VMS Online Documentation Library Compact Disc">
+<!ENTITY CONDIST_DOC_JAN90 "VMS Online Documentation Library Compact Disc Booklet">
+<!ENTITY VMS_FEATURES_EPSILON "OpenVMS AXP Version 6.1 New Features Manual">
+<!ENTITY VMS_VAX_FEATURES_CORAL "OpenVMS VAX Version 6.1 New Features Manual">
+<!ENTITY VMS_AXP_CDROM_UG_V61 "OpenVMS AXP CD-ROM User's Guide">
+<!ENTITY VMS_VAX_CDROM_UG_V61 "OpenVMS VAX CD-ROM User's Guide">
+<!ENTITY VMS_VAX_RLS_NOTES_CORAL "OpenVMS VAX Version 6.1 Release Notes">
+<!ENTITY VMS_VAX_RLS_NOTES_CORAL_AD "OpenVMS VAX Version 6.1 Release Notes Addendum">
+<!ENTITY VMS_AXP_RLS_NOTES_EPSILON "OpenVMS AXP Version 6.1 Release Notes">
+<!ENTITY VMS_MPH_INSTALL_GD "MPH Installation Guide">
+<!ENTITY VMS_VAX_UPGRADE_V61 "OpenVMS VAX Version 6.1 Upgrade and Installation Manual">
+<!ENTITY VMS_AXP_UPGRADE_EPSILON "OpenVMS AXP Version 6.1 Upgrade and Installation Manual">
+<!ENTITY VMS_AXP_STEP2_DRIVER "Creating an OpenVMS AXP Step 2 Device Driver from a Step 1 Device Driver">
+<!ENTITY VMS_AXP_DEV_SUP_DEV_GD "Writing OpenVMS Alpha Device Drivers in C">
+<!ENTITY VMS_AXP_DEV_SUP_REF "OpenVMS Alpha Device Support:Reference">
+<!ENTITY VMS_AXP_SCSI_DEV "OpenVMS AXP Small Computer System Interface (SCSI) Device Support Manual">
+
+<!ENTITY VMS_AXP_VOL_SHAD_INSTALL "Volume Shadowing for OpenVMS AXP: Installation and Release Notes">
+<!ENTITY VMS_AXP_RLS_NOTES_EPSILON_AD "OpenVMS AXP Version 6.1 Release Notes Addendum">
+<!ENTITY VMS_MGT_STA_INSTALL_GD "OpenVMS Management Station Installation Guide">
+<!ENTITY VMS_MGT_STA_OVER "OpenVMS Management Station Overview and Release Notes">
+<!ENTITY VMS_RLS_NTS_V62_ADD "OpenVMS Version 6.2 Release Notes Addendum">
+<!ENTITY VMS_AXP_CDROM_UG_V62 "OpenVMS Version 6.2 CD-ROM User's Guide">
+<!ENTITY VMS_VAX_CDROM_UG_V62 "OpenVMS Version 6.2 CD-ROM User's Guide">
+<!ENTITY VMS_AXP_RLS_NOTES_ZETA "OpenVMS Version 6.2 Release Notes">
+<!ENTITY VMS_VAX_RLS_NOTES_DRAGON "OpenVMS Version 6.2 Release Notes">
+<!ENTITY VMS_FEATURES_V62 "OpenVMS Version 6.2 New Features Manual">
+<!ENTITY VMS_VAX_V62_INSTALL_GD "OpenVMS VAX Version 6.2 Upgrade and Installation Manual">
+<!ENTITY VMS_SES_AXP_INSTL_GD "SEVMS AXP Version 6.1 Installation Guide and Release Notes">
+<!ENTITY VMS_SES_USER_GD "SEVMS User's Guide">
+<!ENTITY VMS_SES_VAX_INSTL_GD "SEVMS VAX Version 6.1 Installation Guide and Release Notes">
+<!ENTITY VMS_SES_SEC_MGR_GD "SEVMS Security Manager's Guide">
+
+
+<!ENTITY VMS_AXP_V62_INSTALL_GD "OpenVMS Alpha Version 6.2 Upgrade and Installation Manual">
+<!ENTITY VMS_AXP_SCSI_PORT "Writing an OpenVMS Alpha SCSI Port DeviceDriver">
+<!ENTITY VMS_AXP_SCSI_CLASS "Writing an OpenVMS AXP SCSI Class DeviceDriver">
+<!ENTITY VMS_FEATURES_V70 "OpenVMS Version 7.0 New Features Manual">
+<!ENTITY VMS_ALPHA_UPGRADE_V70 "OpenVMS Alpha Version 7.0 Upgrade and Installation Manual">
+
+<!ENTITY VMS_ALPHA_MIG_ENV "Migrating an Environment from OpenVMS VAX to OpenVMS Alpha">
+<!ENTITY VMS_VAX_CDROM_UG_V70 "Guide to OpenVMS Version 7.0 CD-ROMs">
+<!ENTITY VMS_RLS_NTS_V70 "OpenVMS Version 7.0 Release Notes">
+<!ENTITY VMS_VAX_UPGRADE_V70 "OpenVMS VAX Version 7.0 Upgrade and Installation Manual">
+
+
+<!ENTITY DFWS_ADMIN "Digital Firewall for OpenVMS Administrator's Guide">
+<!ENTITY VMS_ALPHA_UPGRADE_V71 "OpenVMS Alpha Version 7.1 Upgrade and Installation Manual">
+<!ENTITY VMS_VAX_UPGRADE_V71 "OpenVMS VAX Version 7.1 Upgrade and Installation Manual">
+<!ENTITY VMS_CDROM_UG_V71 "Guide to OpenVMS Version 7.1 CD-ROMs">
+<!ENTITY VMS_FEATURES_V71 "OpenVMS Version 7.1 New Features Manual">
+<!ENTITY VMS_RLS_NTS_V71 "OpenVMS Version 7.1 Release Notes">
+<!ENTITY VMS_ALPHA_UPGRADE_V72 "OpenVMS Alpha Version 7.2 Upgrade and Installation Manual">
+<!ENTITY VMS_VAX_UPGRADE_V72 "OpenVMS VAX Version 7.2 Upgrade and Installation Manual">
+<!ENTITY VMS_CDROM_UG_V72 "Guide to OpenVMS Version 7.2 CD-ROMs">
+<!ENTITY VMS_FEATURES_V72 "OpenVMS Version 7.2 New Features Manual">
+<!ENTITY VMS_RLS_NTS_V72 "OpenVMS Version 7.2 Release Notes">
+<!ENTITY VMS_ALPHA_UPGRADE_V73 "OpenVMS Alpha Version 7.3 Upgrade and Installation Manual">
+<!ENTITY VMS_VAX_UPGRADE_V73 "OpenVMS VAX Version 7.3 Upgrade and Installation Manual">
+<!ENTITY VMS_CDROM_UG_V73 "Guide to OpenVMS Version 7.3 CD-ROMs">
+<!ENTITY VMS_FEATURES_V73 "OpenVMS Version 7.3 New Features and Documentation Overview">
+<!ENTITY VMS_RLS_NTS_V73 "OpenVMS Version 7.3 Release Notes">
+<!ENTITY VMS_AXP_V611H_RLS_NOTES "OpenVMS AXP Version 6.1-1H1 Release Notes and Installation Procedures">
+<!ENTITY VMS_AXP_V611H2_RLS_NOTES "OpenVMS AXP Version 6.1-1H2 Release Notes and Installation Procedures">
+<!ENTITY VMS_AXP_V611H_CD_GD "OpenVMS AXP Version 6.1-1H1CD-ROM User's Guide">
+<!ENTITY VMS_AXP_V611H2_CD_GD "OpenVMS AXP Version 6.1-1H2CD-ROM User's Guide">
+<!ENTITY VMS_AXP_V621H1_RLS_NOTES "OpenVMS Alpha Version 6.2-1H1 Release Notes and Installation Procedures">
+<!ENTITY VMS_AXP_V621H1_CD_GD "OpenVMS Alpha Version 6.2-1H1CD-ROM User's Guide">
+<!ENTITY PELE_RNOTES "OpenVMS Alpha Version 7.2-1H1 New Features and Release Notes">
+<!ENTITY VMS_AXP_V621H2_RLS_NOTES "OpenVMS Alpha Version 6.2-1H2 Release Notes and Installation Procedures">
+<!ENTITY VMS_AXP_V621H2_CD_GD "OpenVMS Alpha Version 6.2-1H2CD-ROM User's Guide">
+<!ENTITY VMS_AXP_V621H3_RLS_NOTES "OpenVMS Alpha Version 6.2-1H3 Release Notes and Installation Procedures">
+<!ENTITY VMS_AXP_V621H3_CD_GD "OpenVMS Alpha Version 6.2-1H3CD-ROM User's Guide">
+<!ENTITY VMS_COMAGNT_DEV_REF "POLYCENTER Common Agent for OpenVMS VAX Developer's Reference">
+<!ENTITY VMS_COMAGNT_DEV_GD "POLYCENTER Common Agent for OpenVMS VAX Developer's Guide">
+<!ENTITY VMS_COMAGNT_IG_DEVKIT "POLYCENTER Common Agent for OpenVMS VAX Installation Guide (Developer's Kit)">
+<!ENTITY VMS_COMAGNT_IG_BASEKIT "POLYCENTER Common Agent for OpenVMS VAX Installation Guide (Base Kit)">
+<!ENTITY VMS_COMAGNT_RLS_NOTES "POLYCENTER Common Agent for OpenVMS VAX Product Overview and Release Notes">
+<!ENTITY DECMCC_SYSREF_VOL1 "DECmcc System Reference Manual,Volume 1">
+<!ENTITY VMS_AXP_CD_BIN_V151H1 "OpenVMS AXP Version 1.5-1H1 Software and Documentation Compact Disc User's Guide">
+<!ENTITY VMS_AXP_RNS_UPD_V151H1 "OpenVMS AXP Version 1.5-1H1 Release Notes and Update Procedures">
+
+
+
+
+
+<!ENTITY VMS_LMCP_REF "OpenVMS Log Manager Control Program Utility Reference Manual">
+<!ENTITY VMS_VAX_SECURITY_GD "OpenVMS VAX Guide to System Security">
+<!ENTITY VMS_SECURITY_GENERIC "Security Guide">
+<!ENTITY VMS_MESSAGES_COMP_GD "<citetitle>OpenVMS System Messages: Companion Guide for Help Message Users</citetitle>">
+<!ENTITY VMS_OPER_GD "OpenVMS VAX Operator's Guide">
+<!ENTITY VMS_RLS_NOTES_V60 "OpenVMS VAX Version 6.0 Release Notes">
+<!ENTITY VMS_RLS_NOTES_GENERIC "OpenVMS Release Notes">
+<!ENTITY VMS_RLS_NOTES_V60_ADD "OpenVMS VAX Version 6.0 Release Notes Addendum">
+<!ENTITY VMS_FEATURES_V60 "OpenVMS VAX Version 6.0 New Features Manual">
+
+
+
+<!ENTITY VMS_VAX_SDA_REF "<citetitle>OpenVMS VAX System Dump Analyzer Utility Manual</citetitle>">
+<!ENTITY VMS_WAN_IO_REF "OpenVMS Wide Area Network I/O User's Reference Manual">
+
+<!ENTITY VMS_SW_OVERVIEW "OpenVMS Software Overview">
+<!ENTITY VMS_CARD_LP_REF "OpenVMS VAX Card Reader, Line Printer,and LPA11-K I/O User's Reference Manual">
+<!ENTITY VMS_COMPAT_VAX_AXP "OpenVMS Compatibility Between VAX and Alpha">
+<!ENTITY VMS_UPGRADE_V60 "OpenVMS VAX Version 6.0 Upgrade and Installation Manual">
+<!ENTITY VMS_ALPHA_UPGRADE_DELTA "OpenVMS AXP Version 1.5 Upgrade and Installation Manual">
+<!ENTITY VMS_ALPHA_RLS_NTS_DELTA "OpenVMS AXP Version 1.5 Release Notes">
+<!ENTITY VMS_RLS_NTS_DELTA_ADD "OpenVMS AXP Version 1.5 Release Notes Addendum">
+<!ENTITY VMS_ALPHA_UPGRADE_V10 "OpenVMS Alpha AXP Version 1.0 Upgrade and Installation Manual">
+<!ENTITY VMS_ALPHA_RLS_NOTES_V10 "OpenVMS Alpha AXP Version 1.0 Release Notes">
+
+
+<!ENTITY VMS_ALPHA_X_DEV_TOOLS_RN "OpenVMS Alpha Cross-Development Tools Release Notes">
+<!ENTITY VMS_ALPHA_START_PORT "Migrating to an OpenVMS AXP System: Planning for Migration">
+
+
+
+
+
+<!ENTITY VMS_ALPHA_SECURITY_GD "OpenVMS AXP Guide to System Security">
+<!ENTITY VMS_AXP_PERF_MGMT "Guide to OpenVMS AXP Performance Management">
+<!ENTITY VMS_TEMP_DRIVER "Creating a Step 1 Driver from an OpenVMS VAX Device Driver">
+
+
+<!ENTITY VMS_DECAMDS_UG "DECamds User's Guide">
+<!ENTITY VMS_DECAMDS_RLS_NTS_V61 "DECamds Version 6.1 Release Notes">
+<!ENTITY VMS_DECAMDS_RLS_NTS_V10 "DECamds Version 1.0 Release Notes">
+<!ENTITY VMS_SPIA_DG "POLYCENTER Software Installation Utility Developer's Guide">
+<!ENTITY VMS_SPIA_PROG_REF "POLYCENTER Software Installation Utility Programmer's Reference Manual">
+<!ENTITY VMS_RLS_NOTES_V552 "VMS Version 5.5-2 Release Notes">
+<!ENTITY VMS_UPDATE_V552 "VMS Version 5.5-2 Update Procedures">
+<!ENTITY VMS_RNS_UPD_V552H4 "OpenVMS VAX Version 5.5-2H4 Release Notes and Update Procedures">
+<!ENTITY VMS_RLS_NOTES_V551HW "VMS Version 5.5-1HW Release Notes">
+<!ENTITY VMS_UPDATE_V551HW "VMS Version 5.5-1HW Update Procedures">
+<!ENTITY VMS_CLETTER_V551HW "Cover Letter for OpenVMS VAX Version 5.5-1HW">
+<!ENTITY VMS_RLS_NOTES_V551 "VMS Version 5.5-1 Release Notes">
+<!ENTITY VMS_UPDATE_V551 "VMS Version 5.5-1 Update Procedures">
+<!ENTITY VMS_GD_DEPENDABLE_SYSTEMS "Building Dependable Systems: The OpenVMS Approach">
+<!ENTITY VMS_GD_DEPENDABLE_SYSTEMS_OT "Building Dependable Systems: The VMS Approach">
+<!ENTITY VMS_FEATURES_V55 "VMS Version 5.5 New Features Manual">
+<!ENTITY VMS_RLS_NOTES_V55 "VMS Version 5.5 Release Notes">
+<!ENTITY VMS_UPGRADE_V55 "VMS Version 5.5 Upgrade and Installation Manual">
+<!ENTITY VMS_DECRAM_DRIVER "DECram for OpenVMS User's Manual">
+<!ENTITY VMS_DECRAM_RLS_NTS_V1 "DECram for OpenVMS Release Notes">
+<!ENTITY VMS_DECRAM_INSTL_GD "DECram for OpenVMS Installation Guide">
+<!ENTITY VMS_POSIX_CALL_REF "VMS POSIX Reference Manual: Callable Interface">
+<!ENTITY VMS_POSIX_AXP_CRM "POSIX for OpenVMS AXP Reference Manual: Callable Interface">
+<!ENTITY VMS_POSIX_AXP_CRM_V1 "POSIX for OpenVMS AXP Reference Manual: Callable Interface, A-L">
+<!ENTITY VMS_POSIX_AXP_CRM_V2 "POSIX for OpenVMS AXP Reference Manual: Callable Interface, M-Z">
+<!ENTITY VMS_POSIX_NONCALL_REF "VMS POSIX Reference Manual: Shell and Utilities">
+<!ENTITY VMS_POSIX_AXP_SURM "POSIX for OpenVMS AXP Reference Manual: Shell and Utilities">
+<!ENTITY VMS_POSIX_UG "Guide to Programming with VMS POSIX">
+<!ENTITY VMS_POSIX_AXP_GVP "Guide to Programming with POSIX for OpenVMS AXP">
+<!ENTITY VMS_POSIX_SHELL "Guide to Using the VMS POSIX Shell">
+<!ENTITY VMS_POSIX_AXP_GVS "Guide to Using the POSIX for OpenVMS AXP Shell">
+<!ENTITY VMS_POSIX_VAX_ISM "POSIX for OpenVMS Installation and System Management Guide">
+<!ENTITY VMS_POSIX_AXP_ISM "POSIX for OpenVMS AXP Installation and System Management Guide">
+<!ENTITY VMS_POSIX_VAX_CONF1 "POSIX 1003.1-1990 Conformance Document for OpenVMS VAX">
+<!ENTITY VMS_POSIX_AXP_CONF1 "POSIX 1003.1-1990 Conformance Document for OpenVMS AXP">
+<!ENTITY VMS_POSIX_VAX_COMPL2 "POSIX for OpenVMS >Compliance Document for P1003.2">
+<!ENTITY VMS_POSIX_AXP_COMPL2 "POSIX for OpenVMS AXP Compliance Document for P1003.2">
+<!ENTITY VMS_POSIX_VAX_COMPL4 "POSIX for OpenVMS Compliance Document for P1003.4">
+<!ENTITY VMS_POSIX_VAX_XPG3Q "X/Open Portability Guide Issue 3 Conformance Statement for OpenVMS VAX">
+<!ENTITY VMS_POSIX_AXP_XPG3Q "X/Open Portability Guide Issue 3 Conformance Statement for OpenVMS AXP">
+<!ENTITY VMS_POSIX_VAX_RN "POSIX for OpenVMS Release Notes">
+<!ENTITY VMS_POSIX_AXP_RN "POSIX for OpenVMS AXP Release Notes">
+<!ENTITY VMS_POSIX_VAX_SUPPL "POSIX for OpenVMS New Features Manual">
+<!ENTITY VMS_POSIX_VAX_SG "POSIX for OpenVMS Support Guide">
+<!ENTITY VMS_POSIX_AXP_SG "POSIX for OpenVMS AXP Support Guide">
+<!ENTITY VMS_POSIX_IEEE_1003_1_1990 "IEEE">
+<!ENTITY VMS_POSIX_IEEE_1003_1 "IEEE">
+<!ENTITY VMS_POSIX_IEEE_1003_1A "IEEE">
+<!ENTITY VMS_POSIX_IEEE_1003_2D10 "IEEE">
+<!ENTITY VMS_POSIX_IEEE_1003_2D11 "IEEE">
+<!ENTITY VMS_POSIX_IEEE_1003_2 "IEEE">
+<!ENTITY VMS_POSIX_IEEE_1003_2A "IEEE">
+<!ENTITY VMS_POSIX_IEEE_1003_4D9 "IEEE">
+<!ENTITY VMS_POSIX_IEEE_1003_4 "IEEE">
+<!ENTITY VMS_POSIX_IEEE_1003_4A "IEEE">
+<!ENTITY VMS_POSIX_XPG3_GENERIC "Portability Guide Issue 3">
+<!ENTITY VMS_POSIX_XPG4_GENERIC "Portability Guide Issue 4">
+<!ENTITY VMS_POSIX_XPG3_VOL1 "Portability Guide Issue 3: XSI Commands and Utilities">
+<!ENTITY VMS_POSIX_XPG3_XSI_COMMS "XSI Commands and Utilities">
+<!ENTITY VMS_POSIX_XPG3_VOL2 "Portability Guide Issue 3: XSI System Interfaces and Headers">
+<!ENTITY VMS_POSIX_XPG3_XSI_INT_HDR "XSI System Interfaces and Headers">
+<!ENTITY VMS_POSIX_XPG3_VOL3 "Portability Guide Issue 3: XSI Supplementary Definitions">
+<!ENTITY VMS_POSIX_XPG3_XSI_SUPP_DEFS "XSI Supplementary Definitions">
+<!ENTITY VMS_POSIX_XPG3_VOL4 "Portability Guide Issue 3: Programming Languages">
+<!ENTITY VMS_POSIX_XPG3_PROG_LANG "Programming Languages">
+<!ENTITY VMS_POSIX_XPG3_VOL5 "Portability Guide Issue 3: Data Management">
+<!ENTITY VMS_POSIX_XPG3_DATA_MGMT "Data Management">
+<!ENTITY VMS_POSIX_XPG3_VOL6 "Portability Guide Issue 3: Window Management">
+<!ENTITY VMS_POSIX_XPG3_WIN_MGMT "Window Management">
+<!ENTITY VMS_POSIX_XPG3_VOL7 "Portability Guide Issue 3: Networking Services">
+<!ENTITY VMS_POSIX_XPG3_NET_SERV "Networking Services">
+<!ENTITY VMS_POSIX_ANSI_X3159_C_STD "ANSI/X3.159 ProgrammingLanguage C Standard">
+<!ENTITY VMS_POSIX_ISM "POSIX for OpenVMS Installation andSystem Management Guide">
+<!ENTITY VMS_POSIX_RN "POSIX for OpenVMS Release Notes">
+<!ENTITY VMS_POSIX_CRM "POSIX for OpenVMS Reference Manual:Callable Interface">
+<!ENTITY VMS_POSIX_SURM "POSIX for OpenVMS Reference Manual:Shell and Utilities">
+<!ENTITY VMS_POSIX_GVP "POSIX for OpenVMS Guide to Programming">
+<!ENTITY VMS_POSIX_GVS "POSIX for OpenVMS Guide to Using the Shell">
+<!ENTITY VMS_POSIX_CONF1 "POSIX Conformance Document for OpenVMS">
+<!ENTITY VMS_POSIX_CONF1B "POSIX Conformance Document for OpenVMS">
+<!ENTITY VMS_POSIX_CONF2 "POSIX Conformance Document for OpenVMS">
+<!ENTITY VMS_POSIX_XPG3Q "PortabilityGuide Issue 3 Conformance Statement for OpenVMS">
+<!ENTITY VMS_POSIX_XPG4Q_ISCL "Conformance Statement:  XPG4 Internationalised System Calls and Libraries">
+<!ENTITY VMS_POSIX_XPG4Q_CU "ConformanceStatement:  XPG4 Commands and Utilities">
+<!ENTITY VMS_POSIX_IEEE_1003_2_1992 "IEEE">
+<!ENTITY VMS_POSIX_IEEE_1003_1B_1993 "IEEE">
+<!ENTITY VMS_POSIX_IEEE_1003_4D13 "IEEE">
+<!ENTITY VMS_POSIX_ISO_9899_C_STD "ISO/IEC, Programming Languages - C">
+<!ENTITY VMS_POSIX_ISO_IEC_9945_1_1990 "ISO/IEC,  Information Technology - Portable OperatingSystem Interface (POSIX) - Part 1: System Application ProgramInterface (API) [C Language]">
+<!ENTITY VMS_POSIX_XPG_SHORT "Portability Guide">
+<!ENTITY VMS_POSIX_XPG4_SIH "CAE Specification, System Interfaces and Headers, Issue 4">
+<!ENTITY VMS_POSIX_XPG4_CU "CAE Specification, Commands and Utilities, Issue 4">
+<!ENTITY VMS_POSIX_XPG4_SID "CAE Specification, System Interface Definitions, Issue 4">
+<!ENTITY VMS_POSIX_XPG4_BMG "Guide,XPG3 - XPG4 Base Migration Guide">
+
+<!ENTITY VMS_X_WINDOW_SYS_TOOLKIT "X Window System Toolkit">
+<!ENTITY VMS_X_MOTIF_QK_REF_GD "X and Motif Quick Reference Guide">
+<!ENTITY VMS_OSF_MOTIF_STYLE_GD "OSF/Motif Style Guide">
+<!ENTITY VMS_OSF_MOTIF_PROG_REF "OSF/Motif Programmer's Reference">
+<!ENTITY VMS_OSF_MOTIF_PROG_GD "OSF/Motif Programmer's Guide">
+<!ENTITY VMS_RLS_NOTES_V543 "VMS Version 5.4-3 Release Notes">
+<!ENTITY VMS_FEATURES_V543 "VMS Version 5.4-3 New Features Manual">
+<!ENTITY VMS_UPDATE_V543 "VMS Version 5.4-3 Update Procedures">
+<!ENTITY VMS_RLS_NOTES_V542 "VMS Version 5.4-2 Release Notes">
+<!ENTITY VMS_RLS_NOTES_V541 "VMS Version 5.4-1 Release Notes">
+<!ENTITY VMS_RLS_NOTES_V54 "VMS Version 5.4 Release Notes">
+<!ENTITY VMS_FEATURES_V54 "VMS Version 5.4 New Features Manual">
+<!ENTITY VMS_UPGRADE "Upgrade and Installation Manual">
+<!ENTITY VMS_UPGRADE_V54 "VMS Version 5.4 Upgrade and Installation Manual">
+
+<!ENTITY VMS_DISPLAY_POST_PERSP "Display PostScript SystemPerspective for Software Developers">
+<!ENTITY VMS_DISPLAY_POST_LIB_REF "Display PostScript System Client Library Reference Manual">
+<!ENTITY VMS_DISPLAY_POST_LANG_EXT "PostScript Language Extensions for the Display PostScript System">
+<!ENTITY VMS_DISPLAY_POST_COLOR_EXT "PostScript Language Color Extensions">
+<!ENTITY VMS_DISPLAY_POST_PSWRAP "Display PostScript System pswrap Reference Manual">
+<!ENTITY VMS_DISPLAY_POST_DOC_SPEC_V21 "PostScript Document Structuring Conventions Specification Version 2.1">
+<!ENTITY VMS_RLS_NOTES_V53 "VMS Version 5.3 Release Notes">
+<!ENTITY VMS_UPGRADE_V53 "VMS Version 5.3 Upgrade and Installation Procedures">
+<!ENTITY VMS_FEATURES_V53 "VMS Version 5.3 New Features Manual">
+
+<!ENTITY VMS_SCSI_DEV "VMS Version 5.3 Small Computer System Interface (SCSI) Device Support Manual">
+<!ENTITY VMS_RLS_NOTES_V52 "VMS Version 5.2 Release Notes">
+<!ENTITY VMS_UPGRADE_V52 "VMS Version 5.2 Upgrade and Installation Procedures">
+<!ENTITY VMS_FEATURES_V52 "VMS Version 5.2 New Features Manual">
+<!ENTITY VMS_EVE_REF "VMS EVE Reference Manual">
+<!ENTITY VMS_DESKTOP_V12_SPD "Desktop-VMS Software Product Descriptions">
+<!ENTITY VMS_DESKTOP_RLS_NOTES_V12 "Release Notes and Installation Procedures">
+<!ENTITY VMS_DESKTOP_RLS_NOTES_V11 "Desktop-VMS Version 1.1 Release Notes">
+<!ENTITY VMS_DESKTOP_INST_GD_V11 "Desktop-VMS Version 1.1 Installation Guide">
+<!ENTITY VMS_DESKTOP_USING_V101 "Installing and Using Desktop-VMS Software">
+<!ENTITY VMS_DESKTOP_UG "Desktop-VMS User's Guide">
+<!ENTITY VMS_DESKTOP_SYSMAN_GD "Desktop-VMS System Manager's Guide">
+<!ENTITY VMS_DESKTOP_RLS_NOTES_V10 "Desktop-VMS Version 1.0 Release Notes">
+
+<!ENTITY VMS_DECW_INSTALL_GD "VMS Version 5.1 Installation Guide">
+<!ENTITY VMS_RLS_NOTES_V51 "VMS Version 5.1 Release Notes">
+<!ENTITY VMS_FEATURES_V51 "VMS Version 5.1 New Features Manual">
+
+<!ENTITY XUI_STYLE_GD "XUI Style Guide">
+
+<!ENTITY VMS_DECW_DECTERM_PROG "DECterm Programmer Reference Manual">
+<!ENTITY VMS_USER_COND "OpenVMS User's Manual">
+
+<!ENTITY VMS_INDEX_R "OpenVMS Master Index">
+<!ENTITY VMS_INDEX_R_OT "VMS Master Index">
+<!ENTITY VMS_CONCEPTS_GLOSS "OpenVMS Glossary">
+<!ENTITY VMS_GLOSS_R "OpenVMS Glossary">
+<!ENTITY VMS_CONCEPTS_GLOSS_OT "VMS Glossary">
+<!ENTITY VMS_GLOSS_R_OT "VMS Glossary">
+
+
+<!ENTITY VMS_VAXCLUSTER_OT "VMS VAXcluster Manual">
+<!ENTITY VMS_MULTI_SITE_CLUSTER "Multiple Site VMScluster Systems">
+<!ENTITY VMS_CLUSTER_OP_GD "VAXcluster Operator's Guide">
+<!ENTITY VMS_CLUSTER_APP "Introduction to VAXcluster Application Design">
+<!ENTITY VMS_CLUSTER_GD "Guide to VAXclusters">
+<!ENTITY VMS_CLUSTER_SERVICE "VAXcluster Service Reference Set">
+<!ENTITY VMS_CLUSTER_TROUBLE "VAXcluster Troubleshooting">
+<!ENTITY VMS_SPD_R "Software Product Description">
+<!ENTITY VMS_DOCMAP_R "Overview of OpenVMS Documentation">
+<!ENTITY VMS_DOCINTRO_R "Overview of OpenVMS Documentation">
+<!ENTITY VMS_DOCMAP_R_OT "Overview of VMS Documentation">
+<!ENTITY VMS_DOCINTRO_R_OT "Overview of VMS Documentation">
+<!ENTITY VMS_INDEX_PROG "OpenVMS Programming Master Index">
+<!ENTITY VMS_INDEX_PROG_OT "VMS Programming Master Index">
+
+
+
+
+
+
+
+
+
+
+<!ENTITY VMS_APPLICATIONS_H_OT "Guide to Creating VMS Modular Procedures">
+
+
+<!ENTITY VMS_PHONE_REF "VMS Phone Utility Manual">
+<!ENTITY VMS_EDT_R "OpenVMS EDT Reference Manual">
+<!ENTITY VMS_EDT_R_OT "VAX EDT Reference Manual">
+<!ENTITY VMS_INDEX_SYSMAN "VMS System Management Master Index">
+
+<!ENTITY VMS_MTHROUT_R_OT "VMS RTL Mathematics (MTH$) Manual">
+<!ENTITY VMS_STRROUT_R "OpenVMS RTL String Manipulation (STR$) Manual">
+<!ENTITY VMS_STRROUT_R_OT "VMS RTL String Manipulation (STR$) Manual">
+<!ENTITY VMS_NCS "OpenVMS National Character Set Utility Manual">
+<!ENTITY VMS_NCS_OT "VMS National Character Set Utility Manual">
+
+
+<!ENTITY VMS_FEATURES_V50 "VMS Version 5.0 New Features Manual">
+<!ENTITY VMS_RLS_NOTES_V50 "VMS Version 5.0 Release Notes">
+<!ENTITY VMS_DSR_R "OpenVMS DIGITAL Standard Runoff Reference Manual">
+<!ENTITY VMS_DSR_R_OT "VAX DIGITAL Standard Runoff Reference Manual">
+
+<!ENTITY VMS_MESSAGES_REF1 "OpenVMS System Messages and Recovery Procedures Reference Manual: A-L">
+<!ENTITY VMS_MESSAGES_REF2 "OpenVMS System Messages and Recovery Procedures Reference Manual: M-Z">
+<!ENTITY VMS_MESSAGES_REF_OT "VMS System Messages and Recovery Procedures Reference Manual">
+<!ENTITY VMS_MESSAGES_REF1_OT "VMS System Messages and Recovery Procedures Reference Manual: Part I">
+<!ENTITY VMS_MESSAGES_REF2_OT "VMS System Messages and Recovery Procedures Reference Manual: Part II">
+<!ENTITY VMS_MESSAGES_GENERIC "OpenVMS system messages documentation">
+<!ENTITY VMS_EXCHANGE_REF "OpenVMS Exchange Utility Manual">
+<!ENTITY VMS_EXCHANGE_REF_OT "VMS Exchange Utility Manual">
+<!ENTITY VMS_FALLBACK "OpenVMS Terminal Fallback Utility Manual">
+<!ENTITY VMS_FALLBACK_OT "VMS Terminal Fallback Utility Manual">
+<!ENTITY VMS_BAD_REF "OpenVMS Bad Block Locator Utility Manual">
+<!ENTITY VMS_BAD_REF_OT "VMS Bad Block Locator Utility Manual">
+<!ENTITY VMS_PATCH_REF "OpenVMS VAX Patch Utility Manual">
+<!ENTITY VMS_PATCH_REF_OT "VMS Patch Utility Manual">
+<!ENTITY VMS_SUMSLP_REF "OpenVMS SUMSLP Utility Manual">
+<!ENTITY VMS_SUMSLP_REF_OT "VMS SUMSLP Utility Manual">
+
+<!ENTITY VMS_DTKROUT_R_OT "VMS RTL DECtalk (DTK$) Manual">
+>
+
+
+<!ENTITY VMS_DELTA_REF_OT "VMS Delta/XDelta Utility Manual">
+<!ENTITY VMS_OBSOLETE "OpenVMS Obsolete Features Manual">
+<!ENTITY VMS_OBSOLETE_OT "VMS Obsolete Features Manual">
+<!ENTITY DECNET_VMS_INTRO "DECnet for OpenVMS Guide to Networking">
+
+<!ENTITY DECNET_VMS_MGMT_UTIL_REF "DECnet for OpenVMS Network Management Utilities">
+<!ENTITY VMS_DECNET_INTRO "DECnet for OpenVMS Guide to Networking">
+<!ENTITY VMS_DECNET_INTRO_OT "Guide to DECnet-VAX Networking">
+<!ENTITY VMS_NETWORK_H_OT "VMS Networking Manual">
+
+<!ENTITY VMS_NCP_REF_OT "VMS Network Control Program Manual">
+<!ENTITY DNOSI_VMS_INTRO_PLAN "DECnet/OSI for OpenVMS Introduction, Planning, and Glossary">
+<!ENTITY DNOSI_VMS_PROB_SOL "DECnet/OSI Problem Solving">
+<!ENTITY DNOSI_VMS_PROG "DECnet/OSI for OpenVMS Programming">
+<!ENTITY DNOSI_VMS_NET_MGMT "DECnet/OSI Network Management">
+<!ENTITY DNOSI_VMS_ENDSYS_INS_USE "DECnet/OSI for OpenVMS EndSystem Installation/Use">
+<!ENTITY DNOSI_VMS_FTAM_VT "DECnet/OSI FTAM and Virtual Terminal Use and Management">
+
+<!ENTITY DNOSI_VMS_X25_PROB_SOLV "DECnet/OSI for OpenVMS X.25 Problem Solving">
+<!ENTITY DNOSI_VMS_X25_SEC "DECnet/OSI for OpenVMS X.25 Security">
+<!ENTITY DNOSI_VMS_PSI_PROG "DECnet/OSI for OpenVMS VAX P.S.I. Programming">
+<!ENTITY DNOSI_VMS_PSI_PROG_REF "DECnet/OSI for OpenVMS VAX P.S.I. Programming Reference">
+<!ENTITY DNOSI_VMS_WANDD_PROG "DECnet/OSI for OpenVMS VAX WANDD Programming">
+<!ENTITY DNOSI_VMS_PSI_ACCT "DECnet/OSI for OpenVMS VAX P.S.I. Accounting">
+<!ENTITY DNOSI_VMS_PSI_USE "DECnet/OSI for OpenVMS VAX P.S.I. Mail and X.29 Use">
+<!ENTITY DNOSI_VMS_PSI_MGMT "DECnet/OSI for OpenVMS VAX P.S.I. Mail and X.29 Management">
+<!ENTITY VMS_XNLS_PROG_GD "XNLS Programming Guide">
+<!ENTITY VMS_LMF_IG "VMS License Management Facility Installation Guide">
+<!ENTITY VMS_LOCAL_CLUSTER "VMS Local Area VAXcluster Manual">
+<!ENTITY VMSINSTAL "OpenVMS Developer's Guide to VMSINSTAL">
+<!ENTITY VMSINSTAL_OT "VMS Developer's Guide to VMSINSTAL">
+
+
+<!ENTITY VMS_PARALLEL_PROC "Guide to Parallel Programming on VMS">
+
+
+<!ENTITY RMS_JOURN_RNOTES "VAX RMS Journalling Release Notes">
+<!ENTITY VMS_TECO_R "PDP-11 TECO User's Guide">
+<!ENTITY VMS_ENCRYPT_RNOTES "Encryption for OpenVMS Release Notes">
+
+<!ENTITY VMS_INST_OPT_SV "VMS Optional Save Set Installation Procedure">
+<!ENTITY VMS_ARCHITECTURE_A "VAX Architecture Handbook">
+<!ENTITY VMS_FILEREC_INT "VMS File System Internals">
+<!ENTITY INST_OP_NEON "OpenVMS VAX Upgrade and Installation Supplement: VAX 7000 Series and VAX 10000 Series">
+<!ENTITY INST_OP_CIRRUS "VMS Upgrade and Installation Supplement: VAXft Systems">
+<!ENTITY INST_OP_CIRRUS_OT "VMS Upgrade and Installation Supplement: VAXft Systems">
+<!ENTITY VAXFT_SYSROUT_REF "VAXft System Services Reference Manual">
+<!ENTITY INST_OP_AQUARIUS "OpenVMS VAX Upgrade and Installation Supplement: VAX 9000 Series">
+<!ENTITY INST_OP_AQUARIUS_OT "VMS Upgrade and Installation Supplement: VAX 9000 Series">
+<!ENTITY INST_OP_VST3100 "OpenVMS VAX Upgrade and Installation Supplement: VAXstation 3100, 4000 and MicroVAX 3100 Series">
+<!ENTITY INST_OP_VST3100_OT "VMS Upgrade and Installation Supplement:VAXstation 3100, 4000 and MicroVAX 3100 Series">
+<!ENTITY INST_OP_RIGEL "OpenVMS VAX Upgrade and Installation Supplement: VAX 6000 Series">
+<!ENTITY INST_OP_RIGEL_OT "VMS Upgrade and Installation Supplement:VAX 6000 Series">
+<!ENTITY INST_OP_730 "VMS Installation and Operations:VAX-11/730">
+<!ENTITY INST_OP_730_OT "VMS Installation and Operations:VAX-11/730">
+<!ENTITY INST_OP_VST_MV_II "OpenVMS VAX Installation and Operations:VAXstation II, II/GPX and MicroVAX II">
+<!ENTITY INST_OP_VST_MV_II_OT "VMS Installation and Operations:VAXstation II, II/GPX and MicroVAX II">
+<!ENTITY INST_OP_FIREFOX "OpenVMS VAX Upgrade and Installation Supplement: VAXstation 3520, 3540">
+<!ENTITY INST_OP_FIREFOX_OT "VMS Upgrade and Installation Supplement: VAXstation 3520, 3540">
+<!ENTITY INST_OP_MAYFAIR3 "OpenVMS Upgrade/Installation:VAX 4000 Series, MicroVAX, VAXstation, and VAXserver 32/33/34/35/36/38/3900Series">
+<!ENTITY INST_OP_MAYFAIR3_OT "VMS Upgrade and Installation Supplement:VAX 4000 Series and MicroVAX, VAXstation, and VAXserver 3200, 3300/3400, 3500/3600, 3800/3900 Series">
+<!ENTITY INST_OP_8500 "OpenVMS VAX Upgrade and Installation Supplement: VAX 8530, 8550, 8810 (8700), and 8820-N (8800)">
+<!ENTITY INST_OP_8500_OT "VMS Upgrade and Installation Supplement: VAX 8530, 8550, 8810 (8700), and 8820-N (8800)">
+<!ENTITY INST_OP_8600 "OpenVMS VAX Upgrade and Installation Supplement: VAX 8600, 8650">
+<!ENTITY INST_OP_8600_OT "VMS Upgrade and Installation Supplement: VAX 8600, 8650">
+<!ENTITY INST_OP_8200 "OpenVMS VAX Upgrade and Installation Supplement: VAX 8200, 8250, 8300, 8350">
+<!ENTITY INST_OP_8200_OT "VMS Upgrade and Installation Supplement: VAX 8200, 8250, 8300, 8350">
+<!ENTITY INST_OP_780 "VMS Upgrade and Installation Supplement: VAX-11/780, 785">
+<!ENTITY INST_OP_780_OT "VMS Upgrade and Installation Supplement: VAX-11/780, 785">
+<!ENTITY INST_OP_750 "VMS Upgrade and Installation Supplement: VAX-11/750">
+<!ENTITY INST_OP_750_OT "VMS Upgrade and Installation Supplement: VAX-11/750">
+<!ENTITY INST_OP_VST2000 "OpenVMS VAX Upgrade and Installation Supplement: VAXstation 2000, MicroVAX 2000">
+<!ENTITY INST_OP_VST2000_OT "VMS Upgrade and Installation Supplement: VAXstation 2000, MicroVAX 2000">
+<!ENTITY INST_OP_POLARSTAR "OpenVMS VAX Upgrade and Installation Supplement: VAX 8820, 8830, 8840">
+<!ENTITY INST_OP_POLARSTAR_OT "VMS Upgrade and Installation Supplement: VAX 8820, 8830, 8840">
+<!ENTITY INST_OP_HYPERION "VMS Installation and Operations:VAX 6200, 6300 Series">
+<!ENTITY INST_OP_725 "VMS Upgrade and Installation Supplement: VAX-11/725, 730">
+<!ENTITY INST_OP_VST_MV "VMS Installation and Operations:VAXstation I, II, II/GPX and MicroVAX I, II">
+<!ENTITY INST_OP_VST8200 "VMS Installation and Operations:VAXstation 8000">
+<!ENTITY INST_OP_CALYPSO "VMS Installation and Operations:VAX 6200 Series">
+<!ENTITY OP_MV3000_V50 "VMS Upgrade and Installation Supplement: MicroVAX, VAXstation, and VAXserver 3600 Series">
+<!ENTITY VMS_FILEDEV "Guide to VMS Files and Devices">
+<!ENTITY VMS_BACKUP_USING "Using VMS BACKUP">
+<!ENTITY VMS_LADCP_MAN "VMS LAD Control Program (LADCP) Manual">
+<!ENTITY VMS_AUDIT_REF "VMS Audit Analysis Utility Manual">
+<!ENTITY VMS_INDEX_GU "VMS General User Master Index">
+<!ENTITY VMS_VMSINTRO_H "Introduction to VMS">
+<!ENTITY VMS_UG "Guide to Using VMS">
+<!ENTITY VMS_MAIL_REF "VMS Mail Utility Manual">
+
+<!ENTITY VMS_DCL_CONCEPTS "VMS DCL Concepts Manual">
+<!ENTITY VMS_DCL_H "Guide to Using VMS Command Procedures">
+<!ENTITY VMS_SYSMAN_INTRO "Introduction to VMS System Management">
+<!ENTITY VMS_SYSMAN_SETUP "Guide to Setting Up a VMS System">
+<!ENTITY VMS_SYSMAN_UTIL "VMS SYSMAN Utility Manual">
+<!ENTITY VMS_INSTALL_REF "VMS Install Utility Manual">
+<!ENTITY VMS_LATCP "VMS LAT Control Program (LATCP) Manual">
+<!ENTITY VMS_SYSGEN_REF "VMS System Generation Utility Manual">
+<!ENTITY VMS_SYSMAN_MAINTAIN "Guide to Maintaining a VMS System">
+<!ENTITY VMS_VERIFY_REF "VMS Analyze/Disk_Structure Utility Manual">
+<!ENTITY VMS_BACKUP_REF "VMS Backup Utility Manual">
+<!ENTITY VMS_ERROR_REF "VMS Error Log Utility Manual">
+<!ENTITY VMS_MOUNT_REF "VMS Mount Utility Manual">
+<!ENTITY VMS_ACL_REF "VMS Access Control List Editor Manual">
+<!ENTITY VMS_AUTHORIZE_REF "VMS Authorize Utility Manual">
+<!ENTITY VMS_ACCOUNTING_REF "VMS Accounting Utility Manual">
+<!ENTITY VMS_MONITOR_REF "VMS Monitor Utility Manual">
+<!ENTITY VMS_SHOW_CLUSTER_REF "VMS Show Cluster Utility Manual">
+<!ENTITY VMS_VMSPROG_H "Guide to VMS Programming Resources">
+<!ENTITY VMS_CDU_REF "VMS Command Definition Utility Manual">
+<!ENTITY VMS_ROUTINTRO_R "Introduction to VMS System Routines">
+<!ENTITY VMS_SYS_SERV "VMS System Services Volume">
+<!ENTITY VMS_SYSROUT_INTRO "Introduction to VMS System Services">
+<!ENTITY VMS_RTLINTRO_R "Introduction to the VMS Run-Time Library">
+<!ENTITY VMS_ANALYZE_RMS_REF "VMS Analyze/RMS_File Utility Manual">
+<!ENTITY VMS_CONVERT_RECLAIM_REF "VMS Convert and Convert/Reclaim Utility Manual">
+<!ENTITY VMS_FDU_REF "VMS File Definition Language Facility Manual">
+
+
+
+
+<!ENTITY VMS_DEVDRIVER_H "VSI VMS Device Support Manual">
+
+<!ENTITY VAX_TPUPROG_GD "VMS Guide to VAXTPU/EVE Programming">
+<!ENTITY VMS_DECNET_OV "VMS Distributed Networking Concepts">
+<!ENTITY VMS_CMLROUT_R "VMS RTL CMIP Management Listener (CML$) Manual">
+<!ENTITY VMS_DIST_APP_GUIDE "Guide to Writing a VMS Distributed Application">
+<!ENTITY VMS_DECNET_OSI "Guide to DECnet-VAX OSI Implementation">
+<!ENTITY VMS_DECNET_CONFIG_GUIDE "Guide to DECnet-VAX Configuration and Problem Solving">
+<!ENTITY VMS_DECNET_INTF "DECnet-VAX Interfaces Manual">
+<!ENTITY VMS_DECNET_MGMT "Guide to DECnet-VAX Network Management">
+<!ENTITY VMS_DECNET_TRANS "Guide to the Transition from DECnet-VAX Phase IV to Phase V">
+
+<!ENTITY VMS_TRACE "VMS Common Trace Facility Manual">
+<!ENTITY VMS_DECNET_PLAN "DECnet-VAX Planning and Concepts Manual">
+<!ENTITY VAX_HARDWARE_V "VAX Hardware Handbook">
+<!ENTITY VMS_SOFTWARE_H "VMS Software Information Management Handbook">
+<!ENTITY VMS_LANGTOOL_H "VMS Software Languages and Tools Handbook">
+<!ENTITY VMS_SYSTEM_H "VMS Software VMS System Software Handbook">
+
+<!ENTITY VTX_INSTALLATION_GUIDE "DEC VTX Installation Guide">
+<!ENTITY TEXT_RETRIEVAL_HANDBOOK "VTX New Features and Text Retrieval System Handbook">
+<!ENTITY SPIRALOG_INSTALL_GD "Spiralog Installation Guide">
+<!ENTITY SPIRALOG_USER_GD "Spiralog User's Guide">
+<!ENTITY SPIRALOG_SYSMAN_GD "Spiralog System Manager's Guide">
+<!ENTITY SPIRALOG_PROG_GD "Spiralog Programmer's Guide">
+<!ENTITY SPIRALOG_RN "Spiralog Release Notes">
+<!ENTITY AFF_ADP_UG "Application Developer's Package User's Guide">
+<!ENTITY VMS_DEC_C_RUN_TIME_UTIL "Compaq C Run-Time Library Utilities Reference Manual">
+<!ENTITY NTDSGD "DIGITAL OpenVMS Disk Services for Windows NT System Managers Guide">
+<!ENTITY NTDSINST "DIGITAL OpenVMS Disk Services for Windows NT Installation Guide">
+<!ENTITY NTDSRN "DIGITAL OpenVMS Disk Services for Windows NT Release Notes">
+
+<!ENTITY VMS_ALPHA_GALAXY_GD "OpenVMS Alpha Partitioning and Galaxy Guide">
+<!ENTITY OVMS_CON_DEV_GD "OpenVMS Connectivity Developer Guide">
+<!ENTITY DCE_PRODUCT_GD "DIGITAL DCE for OpenVMS VAX and OpenVMS Alpha Product Guide">
+<!ENTITY DCE_REF_GD "DIGITAL DCE for OpenVMS VAX and OpenVMS Alpha Reference Guide">
+<!ENTITY DCE_INSTALL_CONFIG_GD "DIGITAL DCE for OpenVMS VAX and OpenVMS Alpha Installation and Configuration Guide">
+<!ENTITY DCE_REL_NOTES "DIGITAL DCE for OpenVMS VAX and OpenVMS Alpha Release Notes">
+<!ENTITY VMS_ALPHA_V712_RLS_NTS "OpenVMS Alpha Version 7.1-2 Release Notes and Installation Procedures">
+
+<!ENTITY ACMS_OVMS_GET_STARTED "Compaq ACMS for OpenVMS Getting Started">
+<!ENTITY ACMS_OVMS_ADU_REF "Compaq ACMS for OpenVMS ADU Reference Manual">
+<!ENTITY ACMS_OVMS_QUICK_REF "Compaq ACMS for OpenVMS Quick Reference">
+<!ENTITY ACMS_OVMS_CONC_DES "Compaq ACMS for OpenVMS Concepts and Design Guidelines">
+<!ENTITY ACMS_OVMS_SYS_INTER_PROG "Compaq ACMS for OpenVMS Systems Interface Programming">
+<!ENTITY ACMS_OVMS_WRIT_SERV_PROC "Compaq ACMS for OpenVMS Writing Server Procedures">
+<!ENTITY ACMS_OVMS_MANAGE_APPS "Compaq ACMS for OpenVMS Managing Applications">
+<!ENTITY ACMS_OVMS_WRIT_APPS "Compaq ACMS for OpenVMS Writing Applications">
+<!ENTITY ACMS_OVMS_IG "Compaq ACMS Version 4.3 for OpenVMS Installation Guide">
+<!ENTITY ACMS_OVMS_REM_MAN_UG "Compaq ACMS for OpenVMS Remote Systems Management Guide">
+<!ENTITY ACMS_OVMS_REL_NTS "Compaq ACMS Version 4.3 for OpenVMS Release Notes">
+<!ENTITY ACMS_KNOW_MOD "Compaq ACMS for OpenVMS Knowledge Module">
+<!ENTITY OVMS_721_NF_RN_MAN "OpenVMS Alpha Version 7.2-1 New Features and Release Notes Manual">
+<!ENTITY VMS_CDROM_UG_V721 "Guide to OpenVMS Version 7.2-1 CD-ROMs">
+<!ENTITY COE_INSTALL "OpenVMS Alpha Version 7.2-6C1 Installation Guide">
+<!ENTITY VMS_73_SDK "OpenVMS Version 7.3 Software Developer Toolkit CD-ROM Guide">
+<!ENTITY OVMS_V726C1_NF "OpenVMS Alpha Version 7.2-6C1 New Features and Release Notes Manual">
+<!ENTITY VMS_FEATURES_GENERIC "New Features and Documentation Overview Manual">
+
+<!ENTITY GD_OVMS_V726C1_CDROM "Guide to OpenVMS Alpha Version 7.2-6C1 CD-ROMs">
+<!ENTITY SEC_WEB_SERVER_OVMS "Compaq Secure Web Server for OpenVMS Alpha">
+<!ENTITY KERBEROS_OVMS "Kerberos for OpenVMS Alpha">
+<!ENTITY PW32_EXCUR_UG_72 "Compaq Pathworks 32 Version 7.2 eXcursion User's Guide">
+<!ENTITY ACME_DEV_GD "ACME Developer's Guide">
+<!ENTITY ACM_NEW_FEATURES "OpenVMS Authentication and Credential Management (ACM) New Features Guide">-->
