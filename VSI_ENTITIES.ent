@@ -11,8 +11,8 @@ webpage at  <link xlink:href=&#34;https://docs.vmssoftware.com&#34; xmlns:xlink=
                 contracts through VSI can contact <email>support@vmssoftware.com</email> for help
                 with this
                 product.<?oxy_delete author="raulkarimov" timestamp="20220622T141149+0200" content=" Users who have VSI OpenVMS support contracts through HPE should contact their HPE Support channel for assistance."?></para>
-        </section>"> 
- 
+        </section>">
+
 <!-- Platforms -->
 
 <!ENTITY X86_64 "x86-64">
