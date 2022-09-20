@@ -3,15 +3,7 @@ webpage at  <link xlink:href=&#34;https://docs.vmssoftware.com&#34; xmlns:xlink=
 
 <!-- Reusables -->
  
-<!ENTITY VSI_COMM "<section>
-            <title>VSI Encourages Your Comments</title>
-            <para>You may send comments or suggestions regarding this manual or any VSI document by
-                sending electronic mail to the following Internet address:
-                    <email>docinfo@vmssoftware.com</email>. Users who have VSI OpenVMS support
-                contracts through VSI can contact <email>support@vmssoftware.com</email> for help
-                with this
-                product.<?oxy_delete author="raulkarimov" timestamp="20220622T141149+0200" content=" Users who have VSI OpenVMS support contracts through HPE should contact their HPE Support channel for assistance."?></para>
-        </section>">
+<!ENTITY VSI_COMM "<section><title>VSI Encourages Your Comments</title><para>You may send comments or suggestions regarding this manual or any VSI document by sending electronic mail to the following Internet address: <email>docinfo@vmssoftware.com</email>. Users who have VSI OpenVMS support contracts through VSI can contact <email>support@vmssoftware.com</email> for help with this product.</para></section>">
 
 <!-- Platforms -->
 
